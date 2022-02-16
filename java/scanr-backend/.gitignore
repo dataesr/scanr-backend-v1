@@ -1,0 +1,14 @@
+**/.settings
+**/.project
+**/.classpath
+**/target/
+*.idea
+*.iml
+*.ipr
+*.iws
+*.db
+**/logs
+**/*.log
+.DS_Store
+app/application.properties
+workflow/application.properties

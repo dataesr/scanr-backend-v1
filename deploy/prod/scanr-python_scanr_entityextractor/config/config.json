@@ -1,0 +1,14 @@
+{
+    "rabbit": {
+        "hostname": "scanr-rabbit",
+        "port": "5672",
+        "username": "guest",
+        "password": "guest"
+    },
+    "crawl_store": {
+        "hostnames": ["scanr-cassandra"],
+        "keyspace": "crawl_store"
+    }
+    ,
+    "api": {"base_url": "http://scanr-backend-workflow:8080", "password": "CHANGEME", "username": "CHANGEME"}
+}

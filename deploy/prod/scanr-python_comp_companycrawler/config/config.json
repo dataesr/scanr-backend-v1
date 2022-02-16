@@ -1,0 +1,14 @@
+{
+    "rabbit": {
+        "hostname": "scanr-rabbit",
+        "port": "5672",
+        "username": "guest",
+        "password": "guest"
+    },
+    "crawl_store": {
+        "hostnames": ["scanr-cassandra"],
+        "keyspace": "crawl_store"
+    }
+    ,"crawler":
+      {"depth": 4, "page_max": 300, "page_size_max": 1000000}
+}

@@ -1,0 +1,6 @@
+FROM openjdk:8-jre
+ARG JAR_FILE
+ADD $JAR_FILE app.jar
+COPY ./start-springboot.sh /run.sh
+RUN sh -c 'touch /app.jar'
+ENTRYPOINT [ "/bin/bash", "/run.sh"]

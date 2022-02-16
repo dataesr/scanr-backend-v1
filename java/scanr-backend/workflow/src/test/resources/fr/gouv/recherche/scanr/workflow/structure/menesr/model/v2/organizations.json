@@ -1,0 +1,57 @@
+[
+	{
+		"id": "016650996",
+		"label": {
+			"default": "CYCLESLAPIERRE",
+			"fr": "CYCLESLAPIERRE"
+		},
+		"nature": "ETI",
+		"status": "active",
+		"isFrench": true,
+		"addresses": [
+			{
+				"main": true,
+				"gps": {
+					"lat": 5.024696,
+					"lon": 47.298541
+				},
+				"postcode": "21000",
+				"city": "Dijon",
+				"citycode": "21231",
+				"urbanUnitCode": "UU21701",
+				"urbanUnitLabel": "Dijon",
+				"country": "France",
+				"provider": "adresse.data.gouv.fr",
+				"score": 0.9368909090909091
+			}
+		],
+		"alias": [
+			"Q1163852",
+			"CYCLESLAPIERRE"
+		],
+		"level": "documentLevel",
+		"legalCategory": {
+			"label": "thisIsACategorieJuridique",
+			"code": "5720"
+		},
+		"badges": [
+			{
+				"code": "ANR",
+				"label": {
+					"fr": "ProjetsANR",
+					"en": "ANRProjects"
+				}
+			}
+		],
+		"links": [
+			{
+				"type": "main",
+				"url": "https: //www.cycles-lapierre.fr/"
+			}
+		],
+		"externalIds": {},
+		"activities": [],
+		"startDate": "1966-01-01",
+		"creationYear": 1966
+	}
+]

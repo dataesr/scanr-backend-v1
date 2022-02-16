@@ -1,0 +1,1 @@
+Copiez le jar dans le répertoire courant et pointez l'argument JAR_FILE du docker build vers le jar afin de l'embarquer.

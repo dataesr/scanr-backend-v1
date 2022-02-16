@@ -1,0 +1,15 @@
+{
+    "rabbit": {
+        "hostname": "scanr-rabbit",
+        "port": "5672",
+        "username": "guest",
+        "password": "guest"
+    },
+    "screenshot": {
+        "phantom": "/application/node-v10.4.0-linux-x64/lib/node_modules/phantomjs/lib/phantom/bin/phantomjs",
+        "width": 1024,
+        "height": 600,
+        "load_delay": 500,
+        "timeout": 20000
+    }
+}

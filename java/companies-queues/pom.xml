@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2016-2019 MESRI
+  ~ Apache License 2.0
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <!-- POM version -->
+    <modelVersion>4.0.0</modelVersion>
+    <!-- Parent project -->
+    <parent>
+        <groupId>fr.gouv.recherche.scanr</groupId>
+        <artifactId>parent</artifactId>
+        <version>3.0-SNAPSHOT</version>
+        <relativePath>../..</relativePath>
+    </parent>
+    <!-- Project identity -->
+    <groupId>fr.gouv.recherche.scanr.companies</groupId>
+    <artifactId>companies-db-root</artifactId>
+    <version>1.266</version>
+    <!-- Project properties -->
+    <name>C-Radar - Root</name>
+    <packaging>pom</packaging>
+    <!-- Global properties -->
+    <properties>
+        <java.version>1.8</java.version>
+
+        <common.version>0.54</common.version>
+        <georadar.version>1.6</georadar.version>
+
+        <!-- Drivers -->
+        <elasticsearch.version>1.7.1</elasticsearch.version>
+        <h2.version>1.4.185</h2.version>
+        <postgresql.version>9.4-1201-jdbc41</postgresql.version>
+        <cassandra.version>2.1.0</cassandra.version>
+
+        <stripe.version>1.28.0</stripe.version>
+
+        <!-- Utils -->
+        <jtransfo.version>0.14</jtransfo.version>
+        <guava.version>18.0</guava.version>
+        <imageio.version>1.1.9</imageio.version>
+        <apache.poi.version>3.12</apache.poi.version>
+        <swagger.version>1.0.2</swagger.version>
+        <apache.http.version>4.3.2</apache.http.version>
+        <opencsv.version>2.3</opencsv.version>
+
+        <commons.fileupload.version>1.3.1</commons.fileupload.version>
+        <commons.io.version>2.4</commons.io.version>
+        <commons.lang.version>2.6</commons.lang.version>
+        <commons.codec.version>1.6</commons.codec.version>
+        <commons.net.version>3.3</commons.net.version>
+        <commons.compress.version>1.9</commons.compress.version>
+
+        <jclouds.version>1.9.0</jclouds.version>
+
+        <!-- Tests -->
+        <wiser.version>1.2</wiser.version>
+        <fongo.version>1.6.0</fongo.version>
+    </properties>
+    <!-- Dependencies -->
+    <dependencyManagement>
+        <dependencies>
+            <!-- Drivers -->
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>${h2.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>${postgresql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.datastax.cassandra</groupId>
+                <artifactId>cassandra-driver-core</artifactId>
+                <version>${cassandra.version}</version>
+            </dependency>
+
+            <!-- GeoRadar -->
+            <dependency>
+                <groupId>com.cradar.geo</groupId>
+                <artifactId>client</artifactId>
+                <version>${georadar.version}</version>
+            </dependency>
+
+            <!-- Mongo Test -->
+            <dependency>
+                <groupId>com.github.fakemongo</groupId>
+                <artifactId>fongo</artifactId>
+                <version>${fongo.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- CSV -->
+            <dependency>
+                <groupId>net.sf.opencsv</groupId>
+                <artifactId>opencsv</artifactId>
+                <version>${opencsv.version}</version>
+            </dependency>
+            <!-- Utils -->
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
+            </dependency>
+            <!-- TIFF Support -->
+            <dependency>
+                <groupId>it.geosolutions.imageio-ext</groupId>
+                <artifactId>imageio-ext-tiff</artifactId>
+                <version>${imageio.version}</version>
+            </dependency>
+            <!-- Export Excel -->
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>${apache.poi.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi-ooxml</artifactId>
+                <version>${apache.poi.version}</version>
+            </dependency>
+            <!-- Stripe -->
+            <dependency>
+                <groupId>com.stripe</groupId>
+                <artifactId>stripe-java</artifactId>
+                <version>${stripe.version}</version>
+            </dependency>
+            <!-- API Docs -->
+            <dependency>
+                <groupId>com.mangofactory</groupId>
+                <artifactId>swagger-springmvc</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <!-- Common Http -->
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.common</groupId>
+                <artifactId>common-http</artifactId>
+                <version>${common.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.slf4j</groupId>
+                        <artifactId>slf4j-log4j12</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.common</groupId>
+                <artifactId>common-dp-clients</artifactId>
+                <version>${common.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${apache.http.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpcore</artifactId>
+                <version>${apache.http.version}</version>
+            </dependency>
+            <!-- JTransfo -->
+            <dependency>
+                <groupId>org.jtransfo</groupId>
+                <artifactId>jtransfo-spring</artifactId>
+                <version>${jtransfo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.hibernate</groupId>
+                        <artifactId>hibernate-validator</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>javax.validation</groupId>
+                        <artifactId>validation-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <!-- Apache commons -->
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${commons.fileupload.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons.io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-lang</groupId>
+                <artifactId>commons-lang</artifactId>
+                <version>${commons.lang.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-codec</groupId>
+                <artifactId>commons-codec</artifactId>
+                <version>${commons.codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-net</groupId>
+                <artifactId>commons-net</artifactId>
+                <version>${commons.net.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${commons.compress.version}</version>
+            </dependency>
+            <!-- jclouds dependencies -->
+            <dependency>
+                <groupId>org.apache.jclouds.driver</groupId>
+                <artifactId>jclouds-slf4j</artifactId>
+                <version>${jclouds.version}</version>
+            </dependency>
+            <!-- jclouds OpenStack dependencies -->
+            <dependency>
+                <groupId>org.apache.jclouds.api</groupId>
+                <artifactId>openstack-keystone</artifactId>
+                <version>${jclouds.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.jclouds.api</groupId>
+                <artifactId>openstack-swift</artifactId>
+                <version>${jclouds.version}</version>
+            </dependency>
+            <!-- Mail integration Test -->
+            <dependency>
+                <groupId>org.subethamail</groupId>
+                <artifactId>subethasmtp-wiser</artifactId>
+                <version>${wiser.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>commons-logging</artifactId>
+                        <groupId>commons-logging</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <!-- Modules -->
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>companies-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>companies-queue</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>companies</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>companies-sdk</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>companies-sdk-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>companies-app</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>import-model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>importer-bvd</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>importer-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>fr.gouv.recherche.scanr.companies</groupId>
+                <artifactId>companies-model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <!-- Sub modules -->
+    <modules>
+        <module>companies-core</module>
+        <module>companies-queue</module>
+    </modules>
+</project>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2016-2019 MESRI
+  ~ Apache License 2.0
+  -->
+
+<configuration debug="false" scan="true">
+
+    <!-- Logback configuration -->
+
+    <!-- Console Appender -->
+    <!-- * Filter level to display only error logs in console -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date{"yyyy-MM-dd HH:mm:ss.SSS"} [%thread] %highlight(%-5level)
+                %cyan(%logger{15}) - %msg %n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Rolling file Appender -->
+    <!-- * Write current logs to : log/application.log -->
+    <!-- * When log size exceeds 10MB, compress and archive logs to : application.N.log.gz -->
+    <!-- * Rolling file policy : only keep the 20 last compressed log files -->
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/application.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>logs/application.%i.log</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>20</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>10MB</maxFileSize>
+        </triggeringPolicy>
+        <encoder>
+            <pattern>%date{"yyyy-MM-dd HH:mm:ss.SSS"} [%thread] %-5level - %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROLLING_FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <file>logs/log_error.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>logs/log_error.%i.log</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>20</maxIndex>
+        </rollingPolicy>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>10MB</maxFileSize>
+        </triggeringPolicy>
+        <encoder>
+            <pattern>%date{"yyyy-MM-dd HH:mm:ss.SSS"} [%thread] %-5level - %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.springframework" level="WARN" additivity="false">
+        <appender-ref ref="ROLLING_FILE" />
+        <appender-ref ref="ROLLING_FILE_ERROR" />
+        <appender-ref ref="STDOUT" />
+    </logger>
+
+    <!-- Log all levels to rolling file, and to console appender -->
+    <root level="INFO">
+        <appender-ref ref="ROLLING_FILE" />
+        <appender-ref ref="ROLLING_FILE_ERROR" />
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>

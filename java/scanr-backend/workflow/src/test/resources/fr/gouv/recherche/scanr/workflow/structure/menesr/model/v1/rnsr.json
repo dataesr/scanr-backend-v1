@@ -1,0 +1,3483 @@
+[
+    {
+        "id": "000021537K",
+        "nature": null,
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 2015,
+        "logo": null,
+        "alternateId": null,
+        "label": "PLATE-FORME DE CRIBLAGE CHEMOGENOMIQUE ET BIOLOGIQUE",
+        "acronym": "PF-CCB",
+        "alias": [
+            null
+        ],
+        "parent": [
+            {
+                "id": "201422237P",
+                "exclusive": false
+            },
+            {
+                "id": "201822815A",
+                "exclusive": false
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "Institut Pasteur,\n25-28, rue du Docteur Roux",
+            "postcode": "75724",
+            "city": "Paris 15e",
+            "citycode": "75115",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Paris 15e",
+            "gps": {
+                "lat": 48.8404,
+                "lon": 2.3107
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://research.pasteur.fr/en/team/fabrice-agou-team/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=000021537K&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "775684897",
+                "siret": "77568489700017",
+                "label": "Institut Pasteur",
+                "acronym": null,
+                "year": 2015,
+                "type": "Etablissement tutelle",
+                "url": "structure/775684897",
+                "code": {
+                    "type": null,
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Fabrice",
+                "lastname": "AGOU",
+                "title": "Directeur",
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "5",
+                "type": "Domaine",
+                "label": "Biologie, medecine et sante",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "000021543S",
+        "nature": null,
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 2015,
+        "logo": null,
+        "alternateId": null,
+        "label": "PÔLE BIOMICS",
+        "acronym": null,
+        "alias": [
+            "POLEBIOMICS"
+        ],
+        "parent": [
+            {
+                "id": "201422237P",
+                "exclusive": false
+            },
+            {
+                "id": "201822815A",
+                "exclusive": false
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "Institut Pasteur,\n25-28 rue du Docteur ROUX",
+            "postcode": "75724",
+            "city": "Paris 15e",
+            "citycode": "75115",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Paris 15e",
+            "gps": {
+                "lat": 48.8404,
+                "lon": 2.3107
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://research.pasteur.fr/en/team/biomics/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=000021543S&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "775684897",
+                "siret": "77568489700017",
+                "label": "Institut Pasteur",
+                "acronym": null,
+                "year": 2015,
+                "type": "Etablissement tutelle",
+                "url": "structure/775684897",
+                "code": {
+                    "type": null,
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Marc",
+                "lastname": "MONOT",
+                "title": null,
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "5",
+                "type": "Domaine",
+                "label": "Biologie, medecine et sante",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "000021565R",
+        "nature": null,
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 2015,
+        "logo": null,
+        "alternateId": null,
+        "label": "GROUPE A 5 ANS PLASTICITÉ CÉRÉBRALE EN RÉPONSE A L'ENVIRONNEMENT",
+        "acronym": null,
+        "alias": [
+            "GROUPEAANSPLASTICITECEREBRALEENREPONSEALENVIRONNEMENT"
+        ],
+        "parent": [
+            {
+                "id": "198718066Y",
+                "exclusive": false
+            },
+            {
+                "id": "200621926L",
+                "exclusive": false
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "Institut Pasteur,\n25-28 rue du Docteur Roux",
+            "postcode": "75724",
+            "city": "Paris 15e",
+            "citycode": "75115",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Paris 15e",
+            "gps": {
+                "lat": 48.8404,
+                "lon": 2.3107
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://research.pasteur.fr/en/team/brain-plasticity-in-response-to-the-environment/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=000021565R&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "775684897",
+                "siret": "77568489700017",
+                "label": "Institut Pasteur",
+                "acronym": null,
+                "year": 2015,
+                "type": "Etablissement tutelle",
+                "url": "structure/775684897",
+                "code": {
+                    "type": null,
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Pauline",
+                "lastname": "SPEDER",
+                "title": "Directrice",
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "5",
+                "type": "Domaine",
+                "label": "Biologie, medecine et sante",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "000021591U",
+        "nature": null,
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 2015,
+        "logo": null,
+        "alternateId": null,
+        "label": "GROUPE A 5 ANS IMMUNOLOGIE DES INFECTIONS FONGIQUES",
+        "acronym": null,
+        "alias": [
+            "GROUPEAANSIMMUNOLOGIEDESINFECTIONSFONGIQUES"
+        ],
+        "parent": [
+            {
+                "id": "201421934K",
+                "exclusive": false
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "Institut Pasteur,\n25-28 rue du Docteur Roux",
+            "postcode": "75724",
+            "city": "Paris 15e",
+            "citycode": "75115",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Paris 15e",
+            "gps": {
+                "lat": 48.8404,
+                "lon": 2.3107
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://research.pasteur.fr/en/team/immunology-of-fungal-infections/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=000021591U&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "775684897",
+                "siret": "77568489700017",
+                "label": "Institut Pasteur",
+                "acronym": null,
+                "year": 2015,
+                "type": "Etablissement tutelle",
+                "url": "structure/775684897",
+                "code": {
+                    "type": null,
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Jessica",
+                "lastname": "QUINTIN",
+                "title": "Directrice",
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "5",
+                "type": "Domaine",
+                "label": "Biologie, medecine et sante",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "193719314X",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1939,
+        "logo": null,
+        "alternateId": null,
+        "label": "INSTITUT DE RECHERCHE ET D'HISTOIRE DES TEXTES",
+        "acronym": "IRHT",
+        "alias": [
+            null
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "40 avenue d'Iena",
+            "postcode": "75116",
+            "city": "Paris 16e",
+            "citycode": "75116",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Paris 16e",
+            "gps": {
+                "lat": 48.8665,
+                "lon": 2.2953
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://www.irht.cnrs.fr/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/23320/362929/file/E2015-EV-0753639Y-S2PUR150008892-006961-RD.pdf",
+                "label": "Rapport HCERES (année 2013-2014 - Vague E)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=193719314X&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            },
+            {
+                "type": "wikipedia",
+                "url": "https://fr.wikipedia.org/wiki/Institut_de_recherche_et_d%27histoire_des_textes",
+                "label": "Accéder à la fiche Wikipedia"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180089013",
+                "siret": "18008901303720",
+                "label": "Centre national de la recherche scientifique",
+                "acronym": "CNRS",
+                "year": 1939,
+                "type": "Etablissement tutelle",
+                "url": "structure/180089013",
+                "code": {
+                    "type": "UPR",
+                    "number": "841"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Francois",
+                "lastname": "BOUGARD",
+                "title": "Directeur",
+                "email": null
+            },
+            {
+                "firstname": "Bruno",
+                "lastname": "BON",
+                "title": null,
+                "email": "bruno.bon@irht.cnrs.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": "51 - 100 employés",
+            "ecField": "Part de chercheurs et enseignants-chercheurs :\n25 - 50 %",
+            "researchersPayroll": [
+                {
+                    "id": "180089013",
+                    "label": "Centre national de la recherche scientifique (CNRS)",
+                    "url": "scanr/structure/180089013"
+                },
+                {
+                    "id": "196917751",
+                    "label": "Université Lumière - Lyon 2",
+                    "url": "scanr/structure/196917751"
+                }
+            ],
+            "hdrField": "HDR : + de 10 personnes",
+            "domainRatios": [
+                {
+                    "id": "SHS6_1",
+                    "label": "Histoire"
+                }
+            ]
+        },
+        "activities": [
+            {
+                "code": "6",
+                "type": "Domaine",
+                "label": "Sciences humaines et humanites",
+                "secondary": false
+            },
+            {
+                "code": "SH4",
+                "type": "ERC",
+                "label": "The Human Mind and its complexity : cognition, psychology, linguistics, philosophy and education",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "h2020",
+                "label": "Participant d'un projet financé par le programme européen Horizon 2020"
+            },
+            {
+                "code": "pcrdt",
+                "label": "Participant d'un projet financé par le PCRDT"
+            },
+            {
+                "code": "erc",
+                "label": "Présence d'un membre lauréat de l'ERC"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            },
+            {
+                "code": "hdr",
+                "label": "Présence de personnel habilité à encadrer de la recherche"
+            },
+            {
+                "code": "EQPX",
+                "label": "PIA - Equipement d'excellence"
+            },
+            {
+                "code": "LABX",
+                "label": "PIA - Laboratoire d'excellence"
+            },
+            {
+                "code": "wikipedia",
+                "label": "Fiche Wikipedia"
+            }
+        ]
+    },
+    {
+        "id": "194022845X",
+        "nature": null,
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1940,
+        "logo": null,
+        "alternateId": null,
+        "label": "INSTITUT PASTEUR DE LA GUYANE",
+        "acronym": null,
+        "alias": [
+            "INSTITUTPASTEURDELAGUYANE"
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": null,
+            "postcode": null,
+            "city": null,
+            "citycode": null,
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": null,
+                "lon": null
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=194022845X&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "775684897",
+                "siret": "77568489700017",
+                "label": "Institut Pasteur",
+                "acronym": null,
+                "year": 1940,
+                "type": "Etablissement tutelle",
+                "url": "structure/775684897",
+                "code": {
+                    "type": null,
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Mirdad ",
+                "lastname": "KAZANJI",
+                "title": null,
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "5",
+                "type": "Domaine",
+                "label": "Biologie, medecine et sante",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "194517892S",
+        "nature": "Structure mixte",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1968,
+        "logo": null,
+        "alternateId": [
+            "INRA:0385"
+        ],
+        "label": "BIOLOGIE ET GÉNÉTIQUE DES INTERACTIONS PLANTES-PARASITES POUR LA PROTECTION INTÉGRÉE",
+        "acronym": "BGPI",
+        "alias": [
+            "UMR 385",
+            "UMR 54",
+            "UMR_A 385",
+            "UMR 0385",
+            "385",
+            "54",
+            "0385"
+        ],
+        "parent": [
+            {
+                "id": "199817725E",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "UMR BGPI TA A-54/K",
+            "postcode": "34398",
+            "city": "Montpellier",
+            "citycode": "34172",
+            "urbanUnitCode": "34701",
+            "urbanUnit": "Montpellier",
+            "gps": {
+                "lat": 43.5937,
+                "lon": 3.8742
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://umr-bgpi.cirad.fr/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/22711/354909/file/E2015-EV-0342222F-S2PUR150008559-006342-RD.pdf",
+                "label": "Rapport HCERES (année 2013-2014 - Vague E)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=194517892S&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1968,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UMR",
+                    "number": "0385"
+                }
+            },
+            {
+                "id": "331596270",
+                "siret": "33159627000016",
+                "label": "Centre de coopération internationale en recherche agronomique pour le développement",
+                "acronym": "Cirad",
+                "year": 2007,
+                "type": "Etablissement tutelle",
+                "url": "structure/331596270",
+                "code": {
+                    "type": "UMR",
+                    "number": "54"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Claire",
+                "lastname": "NEEMA",
+                "title": "Directrice",
+                "email": "claire.neema@supagro.inra.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": "51 - 100 employés",
+            "ecField": "Part de chercheurs et enseignants-chercheurs :\n50 - 100 %",
+            "researchersPayroll": [
+                {
+                    "id": "331596270",
+                    "label": "Centre de coopération internationale en recherche agronomique pour le développement (Cirad)",
+                    "url": "scanr/structure/331596270"
+                },
+                {
+                    "id": "180070039",
+                    "label": "Institut national de la recherche agronomique (Inra)",
+                    "url": "scanr/structure/180070039"
+                },
+                {
+                    "id": "130002793",
+                    "label": "Centre international d'études supérieures en sciences agronomiques (Montpellier Sup Agro)",
+                    "url": "scanr/structure/130002793"
+                },
+                {
+                    "id": "180006025",
+                    "label": "Institut de recherche pour le développement (IRD)",
+                    "url": "scanr/structure/180006025"
+                },
+                {
+                    "id": "180089013",
+                    "label": "Centre national de la recherche scientifique (CNRS)",
+                    "url": "scanr/structure/180089013"
+                }
+            ],
+            "hdrField": "HDR : 6 - 10 personnes",
+            "domainRatios": [
+                {
+                    "id": "SVE1_LS6",
+                    "label": "Immunologie, Infectiologie"
+                }
+            ]
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            },
+            {
+                "code": "LS2",
+                "type": "ERC",
+                "label": "Genetics, Genomics, Bioinformatics and Systems Biology : genetics, population genetics, molecular genetics, genomics, transcriptomics, proteomics, metabolomics, bioinformatics, computational biology, biostatistics, biological modelling and simulation, sys",
+                "secondary": true
+            },
+            {
+                "code": "LS6",
+                "type": "ERC",
+                "label": "Immunity and infection : immunobiology, aetiology of immune disorders, microbiology, virology, parasitology, global and other infectious diseases, population dynamics of infectious diseases, veterinary medicine ",
+                "secondary": true
+            },
+            {
+                "code": "LS8",
+                "type": "ERC",
+                "label": "Evolutionary, population and environmental biology : evolution, ecology, animal behaviour, population biology, biodiversity, biogeography, marine biology, eco-toxicology, prokaryotic biology",
+                "secondary": true
+            },
+            {
+                "code": "LS1",
+                "type": "ERC",
+                "label": "Molecular and Structural Biology and Biochemistry : molecular biology, biochemistry, biophysics, structural biology, biochemistry of signal transduction",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "pcrdt",
+                "label": "Participant d'un projet financé par le PCRDT"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            },
+            {
+                "code": "hdr",
+                "label": "Présence de personnel habilité à encadrer de la recherche"
+            }
+        ]
+    },
+    {
+        "id": "194917817T",
+        "nature": "Structure mixte",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1949,
+        "logo": null,
+        "alternateId": [
+            "INRA:0210"
+        ],
+        "label": "ÉCONOMIE PUBLIQUE",
+        "acronym": null,
+        "alias": [
+            "UMR 210",
+            "UMR 0210",
+            "210",
+            "0210",
+            "ECONOMIEPUBLIQUE"
+        ],
+        "parent": [
+            {
+                "id": "200417735P",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "Avenue Lucien Brétignières",
+            "postcode": "78850",
+            "city": "Thiverval-Grignon",
+            "citycode": "78615",
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": 48.846,
+                "lon": 1.9418
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://www.grignon.inra.fr/economie-publique/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/21401/332108/file/E2015-EV-0753465J-S2PUR150007822-004777-RD.pdf",
+                "label": "Rapport HCERES (année 2013-2014 - Vague E)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=194917817T&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            },
+            {
+                "type": "pluginlabs",
+                "url": "https://www.pluginlabs-universiteparissaclay.fr/fr/entity/914034",
+                "label": "Voir sa fiche sur Plug in labs"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "130002850",
+                "siret": "13000285000019",
+                "label": "Institut des sciences et industries du vivant et de l'environnement",
+                "acronym": "Agro Paris Tech",
+                "year": 2006,
+                "type": "Etablissement tutelle",
+                "url": "structure/130002850",
+                "code": {
+                    "type": "UMR",
+                    "number": "210"
+                }
+            },
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1949,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UMR",
+                    "number": "0210"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Stephane",
+                "lastname": "DE CARA",
+                "title": "Directeur-adjoint",
+                "email": "stephane.decara@grignon.inra.fr"
+            },
+            {
+                "firstname": "Maia",
+                "lastname": "DAVID",
+                "title": null,
+                "email": null
+            },
+            {
+                "firstname": "Stephane",
+                "lastname": "DE CARA",
+                "title": null,
+                "email": null
+            }
+        ],
+        "relations": [
+            {
+                "type": "ECOLE_DOCTORALE",
+                "id": "ED 581",
+                "label": "ED 581 - Agriculture, alimentation, biologie, environnement, santé (ABIES)",
+                "url": "http://www.agroparistech.fr/abies/,https://www.universite-paris-saclay.fr/fr/formation/doctorat/agriculture-alimentation-biologie-environnement-sante-abies",
+                "sigle": "ABIES",
+                "numero_ed": 581
+            }
+        ],
+        "finance": {
+            "employeesField": "21 - 50 employés",
+            "ecField": "Part de chercheurs et enseignants-chercheurs :\n50 - 100 %",
+            "researchersPayroll": [
+                {
+                    "id": "180070039",
+                    "label": "Institut national de la recherche agronomique (Inra)",
+                    "url": "scanr/structure/180070039"
+                },
+                {
+                    "id": "130002850",
+                    "label": "Institut des sciences et industries du vivant et de l'environnement (Agro Paris Tech)",
+                    "url": "scanr/structure/130002850"
+                }
+            ],
+            "hdrField": "HDR : 6 - 10 personnes",
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "7",
+                "type": "Domaine",
+                "label": "Sciences de la societe",
+                "secondary": false
+            },
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "h2020",
+                "label": "Participant d'un projet financé par le programme européen Horizon 2020"
+            },
+            {
+                "code": "pcrdt",
+                "label": "Participant d'un projet financé par le PCRDT"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            },
+            {
+                "code": "ed",
+                "label": "Rattachement à une école doctorale"
+            },
+            {
+                "code": "hdr",
+                "label": "Présence de personnel habilité à encadrer de la recherche"
+            },
+            {
+                "code": "LABX",
+                "label": "PIA - Laboratoire d'excellence"
+            }
+        ]
+    },
+    {
+        "id": "195222603G",
+        "nature": null,
+        "level": 3,
+        "levelLabel": "Collaboratif",
+        "creationYear": 1952,
+        "logo": null,
+        "alternateId": null,
+        "label": "CENTRE TECHNIQUE INTERPROFESSIONNEL DES FRUITS ET LÉGUMES",
+        "acronym": "Ctifl",
+        "alias": [
+            null
+        ],
+        "parent": null,
+        "type": {
+            "id": "CR",
+            "label": "Centres de recherche (INRIA, ...)"
+        },
+        "address": {
+            "address": "22 RUE BERGERE",
+            "postcode": "75009",
+            "city": "Paris  9e",
+            "citycode": "75109",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Paris  9e",
+            "gps": {
+                "lat": 48.8724,
+                "lon": 2.3452
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://www.ctifl.fr/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195222603G&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "775675796",
+                "siret": "7756757960012",
+                "label": "Centre Technique Interprofessionnel des Fruits et Légumes",
+                "acronym": "CTIFL",
+                "year": 1952,
+                "type": "Etablissement tutelle",
+                "url": "structure/775675796",
+                "code": {
+                    "type": null,
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "LOUIS",
+                "lastname": "ORENGA",
+                "title": null,
+                "email": "chataing@ctifl.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "LS9",
+                "type": "ERC",
+                "label": "Applied life sciences and biotechnology: agricultural, animal, fishery, forestry and food sciences; biotechnology, chemical biology, genetic engineering, synthetic biology, industrial biosciences; environmental biotechnology and remediation",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "195317765U",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1953,
+        "logo": null,
+        "alternateId": [
+            "INRA:0300"
+        ],
+        "label": "UNITÉ DE PRÉPARATION DES ALIMENTS EXPÉRIMENTAUX",
+        "acronym": null,
+        "alias": [
+            "UNITEDEPREPARATIONDESALIMENTSEXPERIMENTAUX"
+        ],
+        "parent": [
+            {
+                "id": "199817738U",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "INRA\nDomaine de Vilvert",
+            "postcode": "78352",
+            "city": "Jouy-en-Josas",
+            "citycode": "78322",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Jouy-en-Josas",
+            "gps": {
+                "lat": 48.7634,
+                "lon": 2.1714
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195317765U&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1953,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UE",
+                    "number": "0300"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Xavier",
+                "lastname": "BLANC",
+                "title": "Directeur",
+                "email": "xavier.blanc@jouy.inra.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "195321751B",
+        "nature": null,
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1953,
+        "logo": null,
+        "alternateId": null,
+        "label": "TYPAGE ET ARCHIVAGE D'ANIMAUX MODELES",
+        "acronym": "TAAM",
+        "alias": [
+            null
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "3 B Rue de la Ferollerie",
+            "postcode": "45071",
+            "city": "Orléans",
+            "citycode": "45234",
+            "urbanUnitCode": "45701",
+            "urbanUnit": "Orléans",
+            "gps": {
+                "lat": 47.8321,
+                "lon": 1.9429
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://transgenose.cnrs-orleans.fr/taam/cdta.php",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195321751B&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180089013",
+                "siret": "18008901303720",
+                "label": "Centre national de la recherche scientifique",
+                "acronym": "CNRS",
+                "year": 1953,
+                "type": "Etablissement tutelle",
+                "url": "structure/180089013",
+                "code": {
+                    "type": "UPS",
+                    "number": "44"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Cecile",
+                "lastname": "FREMOND",
+                "title": "Directrice",
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": null,
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "h2020",
+                "label": "Participant d'un projet financé par le programme européen Horizon 2020"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "195517763H",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1955,
+        "logo": null,
+        "alternateId": [
+            "INRA:0115"
+        ],
+        "label": "DOMAINE EXPÉRIMENTAL D'EPOISSES",
+        "acronym": null,
+        "alias": [
+            "DOMAINEEXPERIMENTALDEPOISSES"
+        ],
+        "parent": [
+            {
+                "id": "199817725E",
+                "exclusive": false
+            },
+            {
+                "id": "199817737T",
+                "exclusive": false
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "INRA\nDomaine d'Époisses",
+            "postcode": "21110",
+            "city": "Bretenieres",
+            "citycode": null,
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": 47.2346,
+                "lon": 5.1001
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://www.dijon.inra.fr/Plateformes-Dispositifs/Plateformes-techniques/Domaine",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195517763H&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1955,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UE",
+                    "number": "0115"
+                }
+            }
+        ],
+        "leaders": null,
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "195517880K",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1955,
+        "logo": null,
+        "alternateId": [
+            "INRA:0342"
+        ],
+        "label": "UNITÉ DE RECHERCHE TECHNOLOGIE ET ANALYSES LAITIÈRES",
+        "acronym": null,
+        "alias": [
+            "UNITEDERECHERCHETECHNOLOGIEETANALYSESLAITIERES"
+        ],
+        "parent": [
+            {
+                "id": "200417732L",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "30  route de Versailles\nBP 20089",
+            "postcode": "39801",
+            "city": "Poligny",
+            "citycode": "39434",
+            "urbanUnitCode": "39107",
+            "urbanUnit": "Poligny",
+            "gps": {
+                "lat": 46.8346,
+                "lon": 5.7054
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://www.dijon.inra.fr/Les-Unites/URTAL",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/26473/404166/file/B2017-EV-0755361V-S2PUR170011901-015114-RF.pdf",
+                "label": "Rapport HCERES (année 2015-2016 - Vague B)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195517880K&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1955,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UR",
+                    "number": "0342"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Eric",
+                "lastname": "BEUVIER",
+                "title": "Directeur",
+                "email": null
+            },
+            {
+                "firstname": "Solange",
+                "lastname": "BUCHIN",
+                "title": null,
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            },
+            {
+                "code": "LS9",
+                "type": "ERC",
+                "label": "Applied life sciences and biotechnology: agricultural, animal, fishery, forestry and food sciences; biotechnology, chemical biology, genetic engineering, synthetic biology, industrial biosciences; environmental biotechnology and remediation",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "195817828R",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1958,
+        "logo": null,
+        "alternateId": [
+            "INRA:0407"
+        ],
+        "label": "PATHOLOGIE VÉGÉTALE",
+        "acronym": null,
+        "alias": [
+            "PATHOLOGIEVEGETALE"
+        ],
+        "parent": [
+            {
+                "id": "199817725E",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "67  allee des chenes\nCS60094",
+            "postcode": "84143",
+            "city": "Avignon",
+            "citycode": "84007",
+            "urbanUnitCode": "00754",
+            "urbanUnit": "Avignon",
+            "gps": {
+                "lat": 43.9456,
+                "lon": 4.8643
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://www6.paca.inra.fr/pathologie_vegetale/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/16780/265178/file/B2012-EV-0755661V-S2UR120001703-RD.pdf",
+                "label": "Rapport HCERES (année 2010-2011 - Vague B)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195817828R&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1958,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UR",
+                    "number": "0407"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Marc",
+                "lastname": "BARDIN",
+                "title": "Directeur",
+                "email": "marc.bardin@avignon.inra.fr"
+            },
+            {
+                "firstname": "Christel",
+                "lastname": "LEYRONAS",
+                "title": null,
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            },
+            {
+                "code": "3703",
+                "type": "Thème de recherche",
+                "label": "Etiologie des maladies emergentes",
+                "secondary": null
+            },
+            {
+                "code": "3704",
+                "type": "Thème de recherche",
+                "label": "Ecologie evolutive des pathogenes des plantes",
+                "secondary": null
+            },
+            {
+                "code": "3705",
+                "type": "Thème de recherche",
+                "label": "Epidemiologie et developpement de methodes de lutte durables",
+                "secondary": null
+            },
+            {
+                "code": "LS9",
+                "type": "ERC",
+                "label": "Applied life sciences and biotechnology: agricultural, animal, fishery, forestry and food sciences; biotechnology, chemical biology, genetic engineering, synthetic biology, industrial biosciences; environmental biotechnology and remediation",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "195817884B",
+        "nature": "Structure mixte",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1967,
+        "logo": null,
+        "alternateId": [
+            "INRA:0408"
+        ],
+        "label": "SÉCURITÉ ET QUALITÉ DES PRODUITS D'ORIGINE VÉGÉTALE",
+        "acronym": "SQPOV",
+        "alias": [
+            "UMR_A 408",
+            "UMR 0408",
+            "408",
+            "0408"
+        ],
+        "parent": [
+            {
+                "id": "200417732L",
+                "exclusive": true
+            },
+            {
+                "id": "200417733M",
+                "exclusive": false
+            },
+            {
+                "id": "201320914F",
+                "exclusive": false
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "228  route de l'Aerodrome\nCS40509",
+            "postcode": "84914",
+            "city": "Avignon",
+            "citycode": "84007",
+            "urbanUnitCode": "00754",
+            "urbanUnit": "Avignon",
+            "gps": {
+                "lat": 43.917,
+                "lon": 4.8837
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://www6.paca.inra.fr/sqpov",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/16723/264728/file/B2012-EV-0755661V-S2UR120001704-RD.pdf",
+                "label": "Rapport HCERES (année 2010-2011 - Vague B)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195817884B&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1967,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UMR",
+                    "number": "0408"
+                }
+            },
+            {
+                "id": "198406852",
+                "siret": "19840685200204",
+                "label": "Université d'Avignon et des Pays de Vaucluse",
+                "acronym": null,
+                "year": 2001,
+                "type": "Etablissement tutelle",
+                "url": "structure/198406852",
+                "code": {
+                    "type": "UMR_A",
+                    "number": "408"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Catherine",
+                "lastname": "RENARD",
+                "title": "Directrice",
+                "email": "catherine.renard@avignon.inra.fr"
+            },
+            {
+                "firstname": "Frederic",
+                "lastname": "CARLIN",
+                "title": "Directeur-adjoint",
+                "email": "frederic.carlin@avignon.inra.fr"
+            },
+            {
+                "firstname": "Olivier",
+                "lastname": "DANGLES",
+                "title": "Directeur-adjoint",
+                "email": "olivier.dangles@univ-avignon.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            },
+            {
+                "code": "PE4",
+                "type": "ERC",
+                "label": "Physical and analytical chemical sciences : analytical chemistry, chemical theory, physical chemistry/chemical physics",
+                "secondary": true
+            },
+            {
+                "code": "PE3",
+                "type": "ERC",
+                "label": "Condensed matter physics : structure, electronic properties, fluids, nanosciences",
+                "secondary": true
+            },
+            {
+                "code": "LS9",
+                "type": "ERC",
+                "label": "Applied life sciences and biotechnology: agricultural, animal, fishery, forestry and food sciences; biotechnology, chemical biology, genetic engineering, synthetic biology, industrial biosciences; environmental biotechnology and remediation",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "h2020",
+                "label": "Participant d'un projet financé par le programme européen Horizon 2020"
+            },
+            {
+                "code": "pcrdt",
+                "label": "Participant d'un projet financé par le PCRDT"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            },
+            {
+                "code": "BTBR",
+                "label": "PIA - Biotech - Bioressources"
+            }
+        ]
+    },
+    {
+        "id": "195817959H",
+        "nature": "Structure mixte",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1999,
+        "logo": null,
+        "alternateId": [
+            "INRA:0386"
+        ],
+        "label": "BIOCHIMIE ET PHYSIOLOGIE MOLÉCULAIRE DES PLANTES",
+        "acronym": "BPMP",
+        "alias": [
+            "UMR 0386",
+            "UMR 7447",
+            "UMR 5004",
+            "0386",
+            "7447",
+            "5004"
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "2 Place Viala",
+            "postcode": "34060",
+            "city": "Montpellier",
+            "citycode": "34172",
+            "urbanUnitCode": "34701",
+            "urbanUnit": "Montpellier",
+            "gps": {
+                "lat": 43.617,
+                "lon": 3.8549
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://www1.montpellier.inra.fr/wp-inra/bpmp/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/21537/334473/file/E2015-EV-0342321N-S2PUR150008445-005695-RD.pdf",
+                "label": "Rapport HCERES (année 2013-2014 - Vague E)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195817959H&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "130002793",
+                "siret": "13000279300011",
+                "label": "Centre international d'études supérieures en sciences agronomiques",
+                "acronym": "Montpellier Sup Agro",
+                "year": 2015,
+                "type": "Etablissement tutelle",
+                "url": "structure/130002793",
+                "code": {
+                    "type": "UMR",
+                    "number": "5004"
+                }
+            },
+            {
+                "id": "130020548",
+                "siret": "13002054800017",
+                "label": "Université de Montpellier",
+                "acronym": "CNRS",
+                "year": 2015,
+                "type": "Etablissement tutelle",
+                "url": "structure/130020548",
+                "code": {
+                    "type": "UMR",
+                    "number": "5004"
+                }
+            },
+            {
+                "id": "180089013",
+                "siret": "18008901303720",
+                "label": "Centre national de la recherche scientifique",
+                "acronym": "CNRS",
+                "year": 1999,
+                "type": "Etablissement tutelle",
+                "url": "structure/180089013",
+                "code": {
+                    "type": "UMR",
+                    "number": "5004"
+                }
+            },
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 2015,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UMR",
+                    "number": "0386"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Alain",
+                "lastname": "GOJON",
+                "title": "Directeur",
+                "email": null
+            },
+            {
+                "firstname": "Christophe",
+                "lastname": "MAUREL",
+                "title": "Directeur-adjoint",
+                "email": null
+            }
+        ],
+        "relations": [
+            {
+                "type": "ECOLE_DOCTORALE",
+                "id": "ED 168",
+                "label": "ED 168 - Sciences Chimiques et Biologiques pour la Santé (CBS2)",
+                "url": "http://ecole-doctorale-cbs2.igh.cnrs.fr/",
+                "sigle": "CBS2",
+                "numero_ed": 168
+            }
+        ],
+        "finance": {
+            "employeesField": "51 - 100 employés",
+            "ecField": "Part de chercheurs et enseignants-chercheurs :\n50 - 100 %",
+            "researchersPayroll": [
+                {
+                    "id": "180070039",
+                    "label": "Institut national de la recherche agronomique (Inra)",
+                    "url": "scanr/structure/180070039"
+                },
+                {
+                    "id": "180089013",
+                    "label": "Centre national de la recherche scientifique (CNRS)",
+                    "url": "scanr/structure/180089013"
+                },
+                {
+                    "id": "130002793",
+                    "label": "Centre international d'études supérieures en sciences agronomiques (Montpellier Sup Agro)",
+                    "url": "scanr/structure/130002793"
+                },
+                {
+                    "id": "130020548",
+                    "label": "Université de Montpellier",
+                    "url": "scanr/structure/130020548"
+                }
+            ],
+            "hdrField": "HDR : + de 10 personnes",
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            },
+            {
+                "code": "1278",
+                "type": "Thème de recherche",
+                "label": "physiologie integrative",
+                "secondary": null
+            },
+            {
+                "code": "1279",
+                "type": "Thème de recherche",
+                "label": "biochimie et biologie moleculaire",
+                "secondary": null
+            },
+            {
+                "code": "1280",
+                "type": "Thème de recherche",
+                "label": "nutrition hydrique et minerale",
+                "secondary": null
+            },
+            {
+                "code": "1281",
+                "type": "Thème de recherche",
+                "label": "contraintes abiotiques de l'environnement",
+                "secondary": null
+            },
+            {
+                "code": "LS9",
+                "type": "ERC",
+                "label": "Applied life sciences and biotechnology: agricultural, animal, fishery, forestry and food sciences; biotechnology, chemical biology, genetic engineering, synthetic biology, industrial biosciences; environmental biotechnology and remediation",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "h2020",
+                "label": "Participant d'un projet financé par le programme européen Horizon 2020"
+            },
+            {
+                "code": "pcrdt",
+                "label": "Participant d'un projet financé par le PCRDT"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            },
+            {
+                "code": "ed",
+                "label": "Rattachement à une école doctorale"
+            }
+        ]
+    },
+    {
+        "id": "195818595Z",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1958,
+        "logo": null,
+        "alternateId": null,
+        "label": "INSTITUT DE RECHERCHE SUR LA FUSION PAR CONFINEMENT MAGNÉTIQUE",
+        "acronym": "IRFM",
+        "alias": [
+            null
+        ],
+        "parent": [
+            {
+                "id": "201622496M",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "CEA Cadarache",
+            "postcode": "13108",
+            "city": "Saint-Paul-lès-Durance",
+            "citycode": "13099",
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": 43.6861,
+                "lon": 5.7074
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://irfm.cea.fr/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195818595Z&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "775685019",
+                "siret": "77568501900587",
+                "label": "Commissariat à l'énergie atomique et aux énergies alternatives",
+                "acronym": "CEA",
+                "year": 1958,
+                "type": "Etablissement tutelle",
+                "url": "structure/775685019",
+                "code": {
+                    "type": "Institut",
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Alain",
+                "lastname": "BECOULET",
+                "title": "Directeur",
+                "email": null
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "2",
+                "type": "Domaine",
+                "label": "Physique",
+                "secondary": false
+            },
+            {
+                "code": "3334",
+                "type": "Thème de recherche",
+                "label": "Fusion par confinement magnetique",
+                "secondary": null
+            },
+            {
+                "code": "3335",
+                "type": "Thème de recherche",
+                "label": "Physique des plasma",
+                "secondary": null
+            },
+            {
+                "code": "3336",
+                "type": "Thème de recherche",
+                "label": "Cryomagnetisme",
+                "secondary": null
+            },
+            {
+                "code": "3337",
+                "type": "Thème de recherche",
+                "label": "Theorie et simulation",
+                "secondary": null
+            },
+            {
+                "code": "3338",
+                "type": "Thème de recherche",
+                "label": "ingenierie",
+                "secondary": null
+            },
+            {
+                "code": "3339",
+                "type": "Thème de recherche",
+                "label": "Materiaux",
+                "secondary": null
+            },
+            {
+                "code": "PE8",
+                "type": "ERC",
+                "label": "Products and processes engineering : product design, process design and control, construction methods, civil engineering, energysystems, material engineering",
+                "secondary": true
+            },
+            {
+                "code": "PE2",
+                "type": "ERC",
+                "label": "Fundamental constituents of matter : particle, nuclear, plasma, atomic, molecular, gas, and optical physics",
+                "secondary": false
+            },
+            {
+                "code": "PE5",
+                "type": "ERC",
+                "label": "Materials and synthesis : materials synthesis, structure-properties relations, functional and advanced materials, molecular architecture, organic chemistry",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "cnrs_argent",
+                "label": "Médaille d'argent du CNRS"
+            }
+        ]
+    },
+    {
+        "id": "195917820C",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1964,
+        "logo": null,
+        "alternateId": null,
+        "label": "LABORATOIRE DE BIOTECHNOLOGIE DE L'ENVIRONNEMENT",
+        "acronym": null,
+        "alias": [
+            "LABORATOIREDEBIOTECHNOLOGIEDELENVIRONNEMENT"
+        ],
+        "parent": [
+            {
+                "id": "199817737T",
+                "exclusive": true
+            },
+            {
+                "id": "200417733M",
+                "exclusive": false
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "avenue des Etangs",
+            "postcode": "11100",
+            "city": "Narbonne",
+            "citycode": "11262",
+            "urbanUnitCode": "11502",
+            "urbanUnit": "Narbonne",
+            "gps": {
+                "lat": 43.1542,
+                "lon": 2.9967
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://www6.montpellier.inra.fr/narbonne",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195917820C&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1964,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UR",
+                    "number": "0050"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Jean-Philippe",
+                "lastname": "STEYER",
+                "title": "Directeur",
+                "email": "steyer@supagro.inra.fr"
+            },
+            {
+                "firstname": "Jerome",
+                "lastname": "HAMELIN",
+                "title": "Directeur-adjoint",
+                "email": "jerome.hamelin@supagro.inra.fr"
+            },
+            {
+                "firstname": "Eric",
+                "lastname": "TRABLY",
+                "title": "Directeur-adjoint",
+                "email": "trably@supagro.inra.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": "51 - 100 employés",
+            "ecField": "Part de chercheurs et enseignants-chercheurs :\n25 - 50 %",
+            "researchersPayroll": [
+                {
+                    "id": "180070039",
+                    "label": "Institut national de la recherche agronomique (Inra)",
+                    "url": "scanr/structure/180070039"
+                },
+                {
+                    "id": "130002793",
+                    "label": "Centre international d'études supérieures en sciences agronomiques (Montpellier Sup Agro)",
+                    "url": "scanr/structure/130002793"
+                }
+            ],
+            "hdrField": "HDR : 6 - 10 personnes",
+            "domainRatios": [
+                {
+                    "id": "ST6",
+                    "label": "Sciences et technologies de l'information et de la communication"
+                }
+            ]
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "195922846R",
+        "nature": null,
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1959,
+        "logo": null,
+        "alternateId": null,
+        "label": "BUREAU DE RECHERCHE GÉOLOGIQUE ET MINIÈRE",
+        "acronym": "BRGM",
+        "alias": [
+            null
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "3 AVENUE CLAUDE GUILLEMIN",
+            "postcode": "45100",
+            "city": "Orléans",
+            "citycode": "45234",
+            "urbanUnitCode": "45701",
+            "urbanUnit": "Orléans",
+            "gps": {
+                "lat": null,
+                "lon": null
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=195922846R&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "400706933",
+                "siret": "40070693300019",
+                "label": "BRGM SA.",
+                "acronym": "",
+                "year": 1959,
+                "type": "Etablissement tutelle",
+                "url": "structure/400706933",
+                "code": {
+                    "type": null,
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Patrice",
+                "lastname": "PIANTONE",
+                "title": null,
+                "email": "p.piantone@brgm.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "3",
+                "type": "Domaine",
+                "label": "Sciences de la terre et de l'univers, espace",
+                "secondary": false
+            },
+            {
+                "code": "PE10",
+                "type": "ERC",
+                "label": "Earth system science : physical geography, geology, geophysics, meteorology, oceanography, climatology, ecology, global environmental change, biogeochemical cycles, natural resources management",
+                "secondary": false
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    },
+    {
+        "id": "196117762F",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1961,
+        "logo": null,
+        "alternateId": [
+            "INRA:0394"
+        ],
+        "label": "MAIS",
+        "acronym": null,
+        "alias": [
+            "MAIS"
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "2297  route  INRA",
+            "postcode": "40390",
+            "city": "Saint-Martin-de-Hinx",
+            "citycode": "40272",
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": 43.5717,
+                "lon": -1.2998
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196117762F&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1961,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UE",
+                    "number": "0394"
+                }
+            }
+        ],
+        "leaders": null,
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "196217742E",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1963,
+        "logo": null,
+        "alternateId": [
+            "INRA:0326"
+        ],
+        "label": "DOMAINE EXPÉRIMENTAL DU PIN",
+        "acronym": null,
+        "alias": [
+            "DOMAINEEXPERIMENTALDUPIN"
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "Domaine de Borculo",
+            "postcode": "61310",
+            "city": "Le Pin-au-Haras",
+            "citycode": "61328",
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": 48.79,
+                "lon": 0.209
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196217742E&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1963,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UE",
+                    "number": "0326"
+                }
+            }
+        ],
+        "leaders": null,
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "196217761A",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1979,
+        "logo": null,
+        "alternateId": [
+            "INRA:0393"
+        ],
+        "label": "UNITÉ EXPÉRIMENTALE ARBORICOLE",
+        "acronym": null,
+        "alias": [
+            "UNITEEXPERIMENTALEARBORICOLE"
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "INRA\nDomaine des Jarres",
+            "postcode": "33210",
+            "city": "Toulenne",
+            "citycode": "33533",
+            "urbanUnitCode": "33303",
+            "urbanUnit": "Langon",
+            "gps": {
+                "lat": 44.5122,
+                "lon": -0.367
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196217761A&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1979,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UE",
+                    "number": "0393"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Marine",
+                "lastname": "BLOUIN",
+                "title": "Directrice-adjointe",
+                "email": "marine.blouin@bordeaux.inra.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "196217764D",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1964,
+        "logo": null,
+        "alternateId": [
+            "INRA:0089"
+        ],
+        "label": "UNITÉ EXPÉRIMENTALE PALMIPÈDES A FOIE GRAS",
+        "acronym": null,
+        "alias": [
+            "UNITEEXPERIMENTALEPALMIPEDESAFOIEGRAS"
+        ],
+        "parent": [
+            {
+                "id": "200417731K",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "1076  route de Haut Mauco",
+            "postcode": "40280",
+            "city": "Artigueres",
+            "citycode": null,
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": 43.8262,
+                "lon": -0.5302
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196217764D&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1964,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UE",
+                    "number": "0089"
+                }
+            }
+        ],
+        "leaders": null,
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "196217778U",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1976,
+        "logo": null,
+        "alternateId": [
+            "INRA:0057"
+        ],
+        "label": "DOMAINE EXPÉRIMENTAL DE SAINT-LAURENT-DE-LA-PRÉE",
+        "acronym": null,
+        "alias": [
+            "DOMAINEEXPERIMENTALDESAINTLAURENTDELAPREE"
+        ],
+        "parent": [
+            {
+                "id": "200417736R",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "545  rue Bois Mache",
+            "postcode": "17450",
+            "city": "Saint-Laurent-de-la-Prée",
+            "citycode": "17353",
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": 45.9918,
+                "lon": -1.0282
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196217778U&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1976,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UE",
+                    "number": "0057"
+                }
+            }
+        ],
+        "leaders": null,
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "196217779V",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1975,
+        "logo": null,
+        "alternateId": [
+            "INRA:0411"
+        ],
+        "label": "DOMAINE EXPÉRIMENTAL ALENYA-ROUSSILLON",
+        "acronym": null,
+        "alias": [
+            "DOMAINEEXPERIMENTALALENYAROUSSILLON"
+        ],
+        "parent": [
+            {
+                "id": "200417736R",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "INRA\nDomaine du Mas Blanc",
+            "postcode": "66200",
+            "city": "Alénya",
+            "citycode": "66002",
+            "urbanUnitCode": "66401",
+            "urbanUnit": "Saint-Cyprien",
+            "gps": {
+                "lat": 42.6387,
+                "lon": 2.9662
+            }
+        },
+        "links": [
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196217779V&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1975,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UE",
+                    "number": "0411"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Jose",
+                "lastname": "CATALA",
+                "title": "Directeur-adjoint",
+                "email": "jose.catala@supagro.inra.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "196217811E",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1962,
+        "logo": null,
+        "alternateId": [
+            "INRA:0370"
+        ],
+        "label": "QUALITÉ DES PRODUITS ANIMAUX",
+        "acronym": null,
+        "alias": [
+            "QUALITEDESPRODUITSANIMAUX"
+        ],
+        "parent": [
+            {
+                "id": "200417732L",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "INRA Centre de Clermont-Theix\nRoute de Theix",
+            "postcode": "63122",
+            "city": "Saint-Genès-Champanelle",
+            "citycode": "63345",
+            "urbanUnitCode": null,
+            "urbanUnit": null,
+            "gps": {
+                "lat": 45.7125,
+                "lon": 3.0153
+            }
+        },
+        "links": [
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/26777/408237/file/B2017-EV-0755361V-S2PUR170011904-015120-RF.pdf",
+                "label": "Rapport HCERES (année 2015-2016 - Vague B)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196217811E&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1962,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UR",
+                    "number": "0370"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Jean-Marie",
+                "lastname": "BONNY",
+                "title": "Directeur-adjoint",
+                "email": "jean-marie.bonny@clermont.inra.fr"
+            },
+            {
+                "firstname": "Veronique",
+                "lastname": "SANTE-LHOUTELLIER",
+                "title": "Directrice-adjointe",
+                "email": "veronique.sante@clermont.inra.fr"
+            }
+        ],
+        "relations": [
+            {
+                "type": "CARNOT",
+                "id": "CARNOT_29",
+                "label": "NA (QUALIMENT)",
+                "url": "http://www.qualiment.fr/",
+                "sigle": "QUALIMENT",
+                "numero_ed": null
+            }
+        ],
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            },
+            {
+                "code": "carnot",
+                "label": "Membre d'un institut Carnot"
+            }
+        ]
+    },
+    {
+        "id": "196217969B",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1962,
+        "logo": null,
+        "alternateId": [
+            "INRA:0055"
+        ],
+        "label": "AGRO-SYTEMES TERRITOIRES RESSOURCES MIRECOURT",
+        "acronym": null,
+        "alias": [
+            "AGROSYTEMESTERRITOIRESRESSOURCESMIRECOURT"
+        ],
+        "parent": [
+            {
+                "id": "200417736R",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "662  avenue Louis Buffet",
+            "postcode": "88500",
+            "city": "Mirecourt",
+            "citycode": "88304",
+            "urbanUnitCode": "88205",
+            "urbanUnit": "Mirecourt",
+            "gps": {
+                "lat": 48.2945,
+                "lon": 6.122
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://www6.nancy.inra.fr/sad-aster",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/18076/274980/file/C2013-EV-0755361V-S2PUR130004969-000974-RD.pdf",
+                "label": "Rapport HCERES (année 2011-2012 - Vague C)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196217969B&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1962,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UR",
+                    "number": "0055"
+                }
+            }
+        ],
+        "leaders": null,
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "pcrdt",
+                "label": "Participant d'un projet financé par le PCRDT"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "196317031C",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1970,
+        "logo": null,
+        "alternateId": null,
+        "label": "LABORATOIRE D'ÉNERGÉTIQUE MOLÉCULAIRE ET MACROSCOPIQUE, COMBUSTION",
+        "acronym": "EM2C",
+        "alias": [
+            null
+        ],
+        "parent": null,
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "Plateau du Moulon - Batiment Eiffel-Bureau EB.205 -\n3, rue Joliot-Curie",
+            "postcode": "91192",
+            "city": "Gif-sur-Yvette",
+            "citycode": "91272",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Gif-sur-Yvette",
+            "gps": {
+                "lat": 48.7097,
+                "lon": 2.1701
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://em2c.centralesupelec.fr/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/23313/362813/file/E2015-EV-0921225G-S2PUR150008225-006689-RD.pdf",
+                "label": "Rapport HCERES (année 2013-2014 - Vague E)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196317031C&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            },
+            {
+                "type": "pluginlabs",
+                "url": "https://www.pluginlabs-universiteparissaclay.fr/fr/entity/914122",
+                "label": "Voir sa fiche sur Plug in labs"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180089013",
+                "siret": "18008901303720",
+                "label": "Centre national de la recherche scientifique",
+                "acronym": "CNRS",
+                "year": 1970,
+                "type": "Etablissement tutelle",
+                "url": "structure/180089013",
+                "code": {
+                    "type": "UPR",
+                    "number": "288"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Sebastien",
+                "lastname": "DUCRUIX",
+                "title": "Directeur",
+                "email": null
+            },
+            {
+                "firstname": "Benoit",
+                "lastname": "GOYEAU",
+                "title": "Directeur-adjoint",
+                "email": null
+            }
+        ],
+        "relations": [
+            {
+                "type": "ECOLE_DOCTORALE",
+                "id": "ED 579",
+                "label": "ED 579 - Sciences mécaniques et energétiques, matériaux et géosciences (SMEMaG)",
+                "url": "https://www.universite-paris-saclay.fr/fr/formation/doctorat/sciences-mecaniques-et-energetiques-materiaux-et-geosciences-smemag",
+                "sigle": "SMEMaG",
+                "numero_ed": 579
+            }
+        ],
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "1",
+                "type": "Domaine",
+                "label": "Mathematiques et leurs interactions",
+                "secondary": true
+            },
+            {
+                "code": "8",
+                "type": "Domaine",
+                "label": "Sciences pour l'ingenieur",
+                "secondary": false
+            },
+            {
+                "code": "2",
+                "type": "Domaine",
+                "label": "Physique",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "anr",
+                "label": "Participant d'un projet financé par l'ANR"
+            },
+            {
+                "code": "h2020",
+                "label": "Participant d'un projet financé par le programme européen Horizon 2020"
+            },
+            {
+                "code": "pcrdt",
+                "label": "Participant d'un projet financé par le PCRDT"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            },
+            {
+                "code": "ed",
+                "label": "Rattachement à une école doctorale"
+            }
+        ]
+    },
+    {
+        "id": "196317869N",
+        "nature": "Structure propre",
+        "level": 2,
+        "levelLabel": "Unité",
+        "creationYear": 1963,
+        "logo": null,
+        "alternateId": [
+            "INRA:0496"
+        ],
+        "label": "SERVICE DE PHARMACOLOGIE ET D'IMMUNOANALYSE",
+        "acronym": "SPI",
+        "alias": [
+            null
+        ],
+        "parent": [
+            {
+                "id": "199817738U",
+                "exclusive": true
+            },
+            {
+                "id": "201722554W",
+                "exclusive": false
+            }
+        ],
+        "type": {
+            "id": null,
+            "label": null
+        },
+        "address": {
+            "address": "Inra - CEA de Saclay - Bat. 136",
+            "postcode": "91191",
+            "city": "Gif-sur-Yvette",
+            "citycode": "91272",
+            "urbanUnitCode": "00851",
+            "urbanUnit": "Gif-sur-Yvette",
+            "gps": {
+                "lat": null,
+                "lon": null
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "https://www6.jouy.inra.fr/immuno_allergie_alimentaire",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "hceres",
+                "url": "http://www.hceres.fr/content/download/14560/237104/file/EVAL-0912281K-S2110067046-UR-RAPPORT.pdf",
+                "label": "Rapport HCERES (année 2009-2010 - Vague A)"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196317869N&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1963,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UMR",
+                    "number": "0496"
+                }
+            },
+            {
+                "id": "775685019",
+                "siret": "77568501900587",
+                "label": "Commissariat à l'énergie atomique et aux énergies alternatives",
+                "acronym": "CEA",
+                "year": 2015,
+                "type": "Etablissement tutelle",
+                "url": "structure/775685019",
+                "code": {
+                    "type": null,
+                    "number": null
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Christophe",
+                "lastname": "CREMINON",
+                "title": "Directeur",
+                "email": null
+            },
+            {
+                "firstname": "Christophe",
+                "lastname": "JUNOT",
+                "title": "Directeur",
+                "email": null
+            },
+            {
+                "firstname": "Karine",
+                "lastname": "ADEL-PATIENT",
+                "title": null,
+                "email": "karine.patient@cea.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "5",
+                "type": "Domaine",
+                "label": "Biologie, medecine et sante",
+                "secondary": false
+            },
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": [
+            {
+                "code": "pcrdt",
+                "label": "Participant d'un projet financé par le PCRDT"
+            },
+            {
+                "code": "publications",
+                "label": "Publications scientifiques"
+            }
+        ]
+    },
+    {
+        "id": "196317940R",
+        "nature": "Structure propre",
+        "level": 1,
+        "levelLabel": "équipe interne",
+        "creationYear": 1963,
+        "logo": null,
+        "alternateId": null,
+        "label": "PROCESSUS AUX INTERFACES ET HYGIÈNE DES MATÉRIAUX",
+        "acronym": "PIHM",
+        "alias": [
+            null
+        ],
+        "parent": [
+            {
+                "id": "200417732L",
+                "exclusive": true
+            },
+            {
+                "id": "200417733M",
+                "exclusive": false
+            },
+            {
+                "id": "201019109G",
+                "exclusive": true
+            }
+        ],
+        "type": {
+            "id": "EI",
+            "label": "Equipe interne"
+        },
+        "address": {
+            "address": "369 rue Jules Guesde\nBP20039",
+            "postcode": "59651",
+            "city": "Villeneuve-d'Ascq",
+            "citycode": "59009",
+            "urbanUnitCode": "59702",
+            "urbanUnit": "Lille",
+            "gps": {
+                "lat": 50.6403,
+                "lon": 3.1407
+            }
+        },
+        "links": [
+            {
+                "type": "main",
+                "url": "http://umet.univ-lille1.fr/",
+                "label": "Aller sur le site web de la structure"
+            },
+            {
+                "type": "rnsr",
+                "url": "https://appliweb.dgri.education.fr/rnsr/PresenteStruct.jsp?numNatStruct=196317940R&PUBLIC=OK",
+                "label": "Aller sur la fiche RNSR de la structure"
+            }
+        ],
+        "institutions": [
+            {
+                "id": "180070039",
+                "siret": "18007003901803",
+                "label": "Institut national de la recherche agronomique",
+                "acronym": "Inra",
+                "year": 1963,
+                "type": "Etablissement tutelle",
+                "url": "structure/180070039",
+                "code": {
+                    "type": "UMR",
+                    "number": "0638"
+                }
+            }
+        ],
+        "leaders": [
+            {
+                "firstname": "Guillaume",
+                "lastname": "DELAPLACE",
+                "title": null,
+                "email": "guillaume.delaplace@lille.inra.fr"
+            }
+        ],
+        "relations": null,
+        "finance": {
+            "employeesField": null,
+            "ecField": null,
+            "researchersPayroll": null,
+            "hdrField": null,
+            "domainRatios": null
+        },
+        "activities": [
+            {
+                "code": "4",
+                "type": "Domaine",
+                "label": "Chimie",
+                "secondary": false
+            },
+            {
+                "code": "10",
+                "type": "Domaine",
+                "label": "Sciences agronomiques et ecologiques",
+                "secondary": true
+            },
+            {
+                "code": "PE5",
+                "type": "ERC",
+                "label": "Materials and synthesis : materials synthesis, structure-properties relations, functional and advanced materials, molecular architecture, organic chemistry",
+                "secondary": false
+            },
+            {
+                "code": "LS1",
+                "type": "ERC",
+                "label": "Molecular and Structural Biology and Biochemistry : molecular biology, biochemistry, biophysics, structural biology, biochemistry of signal transduction",
+                "secondary": true
+            }
+        ],
+        "history": null,
+        "spinoffs": null,
+        "badges": null
+    }
+]

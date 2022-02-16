@@ -1,0 +1,48 @@
+<!--
+  ~ Copyright 2016-2019 MESRI
+  ~ Apache License 2.0
+  -->
+
+<ehcache
+        xsi:noNamespaceSchemaLocation="ehcache.xsd"
+        updateCheck="true"
+        monitoring="autodetect"
+        dynamicConfig="true"
+        maxElementsInMemory="30">
+    <defaultCache
+            eternal="false"
+            maxElementsInMemory="30"
+            overflowToDisk="false"/>
+    <cache name="searchCache"
+           eternal="false"
+           timeToIdleSeconds="600"
+           maxElementsInMemory="30"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           diskPersistent="false"
+           memoryStoreEvictionPolicy="LRU"/>
+    <cache name="searchNearCache"
+           eternal="false"
+           timeToIdleSeconds="600"
+           maxElementsInMemory="30"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           diskPersistent="false"
+           memoryStoreEvictionPolicy="LRU"/>
+    <cache name="searchGeoCache"
+           eternal="false"
+           timeToIdleSeconds="600"
+           maxElementsInMemory="30"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           diskPersistent="false"
+           memoryStoreEvictionPolicy="LRU"/>
+    <cache name="testCache"
+           eternal="false"
+           timeToIdleSeconds="600"
+           maxElementsInMemory="30"
+           timeToLiveSeconds="600"
+           overflowToDisk="false"
+           diskPersistent="false"
+           memoryStoreEvictionPolicy="LRU"/>
+</ehcache>

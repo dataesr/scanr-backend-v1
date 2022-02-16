@@ -1,0 +1,20 @@
+Filesystem                                                 Size  Used Avail Use% Mounted on
+/dev/root                                                   20G  2.0G   17G  11% /
+devtmpfs                                                    32G     0   32G   0% /dev
+tmpfs                                                       32G   12K   32G   1% /dev/shm
+tmpfs                                                       32G  1.7G   30G   6% /run
+tmpfs                                                      5.0M     0  5.0M   0% /run/lock
+tmpfs                                                       32G     0   32G   0% /sys/fs/cgroup
+/dev/mapper/vgphy-lv--scanr--elasticsearch--log            4.8G   10M  4.8G   1% /var/log/scanr-elasticsearch
+/dev/mapper/vgphy-lv--scanr--backend_app                   9.8G   23M  9.2G   1% /var/log/scanr-backend_app
+/dev/mapper/vgphy-lv--scanr--backend_workflow              9.8G   23M  9.2G   1% /var/log/scanr-backend_workflow
+/dev/mapper/vgphy-lv--scanr--mongo--log                    4.8G   10M  4.8G   1% /var/log/scanr-mongo
+/dev/mapper/vgphy-lv--scanr--rabbit--log                   4.8G   10M  4.8G   1% /var/log/scanr-rabbit
+/dev/mapper/vgphy-lv--home                                  30G   22G  8.1G  73% /home
+/dev/mapper/vgphy-lv--scanr--mongo--data                    30G   18G   13G  59% /var/db/scanr-mongo
+/dev/mapper/vgphy-lv--scanr--screenshots                   9.8G  1.2G  8.6G  13% /var/db/scanr-screenshots
+/dev/mapper/vgphy-lv--scanr--elasticsearch--data            79G   28G   52G  35% /var/db/scanr-elasticsearch
+/dev/mapper/vgphy-lv--scanr--cassandra--data               246G   64G  183G  26% /var/db/scanr-cassandra
+/dev/mapper/vgphy-lv--scanr--rabbit--data                   20G  146M   20G   1% /var/db/scanr-rabbit
+/dev/mapper/vgphy-lv--scanr--cassandra--log                4.8G   34M  4.8G   1% /var/log/scanr-cassandra
+

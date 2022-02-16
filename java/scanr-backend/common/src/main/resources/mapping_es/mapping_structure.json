@@ -1,0 +1,77 @@
+{
+  "dynamic_templates": [
+    {
+      "term_vector": {
+        "match_mapping_type": "string",
+        "path_unmatch": ["*.fr", "*.en", "*.gps"],
+        "mapping": {
+          "analyzer": "standard",
+          "term_vector": "with_positions_offsets",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            },
+            "sort": {
+              "type": "keyword",
+              "normalizer": "folding_normalizer",
+              "ignore_above": 256
+            }
+          }
+        }
+      }
+    },
+    {
+      "french_analyzer": {
+        "path_match": "*.fr",
+        "mapping": {
+          "type": "text",
+          "analyzer": "french",
+          "term_vector": "with_positions_offsets",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            },
+            "sort": {
+              "type": "keyword",
+              "normalizer": "folding_normalizer",
+              "ignore_above": 256
+            }
+          }
+        }
+      }
+    },
+    {
+      "english_analyzer": {
+        "path_match": "*.en",
+        "mapping": {
+          "type": "text",
+          "analyzer": "english",
+          "term_vector": "with_positions_offsets",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            },
+            "sort": {
+              "type": "keyword",
+              "normalizer": "folding_normalizer",
+              "ignore_above": 256
+            }
+          }
+        }
+      }
+    },
+    {
+      "gps": {
+        "path_match": "*.gps",
+        "mapping": {
+          "type": "geo_point",
+          "ignore_malformed": true
+        }
+      }
+    }
+  ],
+  "properties": {}
+}

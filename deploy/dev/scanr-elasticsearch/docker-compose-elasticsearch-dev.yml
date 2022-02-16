@@ -1,0 +1,68 @@
+version: '3.6'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.13.1
+    container_name: scanr-elasticsearch
+    secrets:
+      - source: elasticsearch.yml
+        target: /usr/share/elasticsearch/config/elasticsearch.yml
+    environment:
+      - "ES_JAVA_OPTS=-Xms4g -Xmx4g"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - 9200:9200
+      - 9300:9300
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+      - eslogs:/usr/share/elasticsearch/logs
+      - ./certificates:/usr/share/elasticsearch/config/certs
+    networks:
+      - scanr-private
+    restart: unless-stopped
+
+  kibana:
+    image: 'docker.elastic.co/kibana/kibana:7.13.1'
+    container_name: scanr-kibana
+    secrets:
+      - source: kibana.yml
+        target: /usr/share/kibana/config/kibana.yml
+    ports:
+      - 5601:5601
+    networks:
+      - scanr-private
+    volumes:
+      - ./certificates:/usr/share/kibana/config/certs
+    restart: unless-stopped
+  
+  cerebro:
+    image: 'lmenezes/cerebro:0.9.4'
+    container_name: scanr-cerebro
+    ports:
+      - '9000:9000'
+    networks:
+      - scanr-private
+    volumes:
+      - ./cerebro/application.conf:/opt/cerebro/conf/application.conf
+      - ./certificates/generated/ca/ca.crt:/opt/cerebro/conf/ca.crt
+    restart: unless-stopped
+
+networks:
+  scanr-private:
+    name: scanr-private
+
+volumes:
+  esdata:
+    name: esdata
+    driver: local
+  eslogs:
+    name: eslogs
+    driver: local
+
+secrets:
+  elasticsearch.yml:
+    file: ./elasticsearch.yml
+  kibana.yml:
+    file: ./kibana.yml

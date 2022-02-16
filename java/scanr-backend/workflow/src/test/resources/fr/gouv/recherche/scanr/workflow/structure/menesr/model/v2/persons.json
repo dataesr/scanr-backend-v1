@@ -1,0 +1,359 @@
+[
+	{
+		"id": "idref029762871",
+		"firstName": "Jean-Michel",
+		"lastName": "Muller",
+		"fullName": "JEAN-MICHEL MULLER",
+		"gender": "M",
+		"externalIds": {
+			"idref": "029762871",
+			"isni": "0000000118627897",
+			"ark": "http: //catalogue.bnf.fr/ark: /12148/cb121316600",
+			"sudoc": "060965207",
+			"orcid": "0000-0003-3588-0047",
+			"id_hal": "4171"
+		},
+		"dataSources": ["hal", "rnsr"],
+		"orcidCreationDate": "2017-11-03T00:00:00",
+		"roles": [
+			{
+				"role": "Expert ANR"
+			}
+		],
+		"affiliations": [
+			{
+				"structure": "199712586Y",
+				"startDate": "2015-01-01T00:00:00",
+				"source": [
+					"rnsr"
+				]
+			}
+		],
+		"awards": [
+			{
+				"label": "Meilleure thèse",
+				"date": "1995-01-01T00:00:00",
+				"amount": "2000",
+				"structureLabel": "Centre national de la recherche scientifique",
+				"structure": "130005457"
+			}
+		],
+		"coContributors": [
+			"idref07120489X"
+		],
+		"description": "Titulaire d'une thèse en géopolitique",
+		"keywords": {
+			"fr": [
+				"géopolitique", "balkans"
+			]
+		},
+		"email": "mail@mail.com",
+		"website": "www.jmmuller.com",
+		"links": [
+			{
+				"twitter": "http://www.twitter.com/jmmuller"
+			}
+		],
+		"similarPersons": [
+			{
+				"target": "idref07120489X",
+				"score": "106"
+			}
+		]
+	},
+	{
+		"id": "idref07120489X",
+		"firstName": "Takéo",
+		"lastName": "Takahashi",
+		"fullName": "TAKEO TAKAHASHI",
+		"maidenName": null,
+		"gender": "M",
+		"externalIds": {
+			"idref": "07120489X",
+			"orcid": "0000-0003-1270-6150",
+			"id_hal": "10343"
+		},
+		"dataSources": [],
+		"orcidCreationDate": "2016-01-01T00:00:00",
+		"affiliations": [
+			{
+				"structure": "200711886U",
+				"startDate": "2015-01-01T00:00:00",
+				"source": [
+					"cnrs"
+				]
+			}
+		],
+		"coContributors": [
+			"idref029762871", "idref074308297"
+		],
+		"focus": [
+			"CNRSMEDALS"
+		],
+		"badges": [
+			{
+				"code": "PxCurie",
+				"label": [
+					{
+						"default": "Prix Irène Joliot-Curie",
+						"fr": "Prix Irène Joliot-Curie",
+						"en": "Irène Joliot-Curie Prize"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "idref074308297",
+		"firstName": "Éric",
+		"lastName": "Gaussier",
+		"fullName": "ERIC GAUSSIER",
+		"maidenName": null,
+		"gender": "M",
+		"externalIds": {
+			"idref": "074308297",
+			"isni": "0000000003138508",
+			"ark": "http: //catalogue.bnf.fr/ark: /12148/cb14512293n",
+			"sudoc": "086037692"
+		},
+		"dataSources": [],
+		"orcidCreationDate": null,
+		"roles": [
+			{
+				"role": "string",
+				"description": "string",
+				"startDate": "Date",
+				"endDate": "Date"
+			}
+		],
+		"affiliations": [
+			{
+				"source": [
+					"Publication"
+				],
+				"label": "Laboratoire des énergies renouvellables"
+			}
+		],
+		"similarPersons": [
+			{
+				"target": "idref074344331",
+				"score": "240"
+			},
+			{
+				"target": "idref11107021X",
+				"score": "96"
+			},
+			{
+				"target": "idref186361424",
+				"score": "112"
+			}
+		],
+		"focus": [
+			"CNRSMEDALS"
+		],
+		"badges": [
+			{
+				"code": "PxCurie",
+				"label": [
+					{
+						"default": "Prix Irène Joliot-Curie",
+						"fr": "Prix Irène Joliot-Curie",
+						"en": "Irène Joliot-Curie Prize"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "idref074344331",
+		"firstName": "Agnès",
+		"lastName": "Gramain",
+		"fullName": "AGNES GERMAIN",
+		"maidenName": null,
+		"gender": "F",
+		"externalIds": {
+			"idref": "074344331"
+		},
+		"dataSources": [
+			"RNSR"
+		],
+		"orcidCreationDate": null,
+		"affiliations": [
+			{
+				"structure": "199712586Y",
+				"startDate": "2016-01-01T00:00:00",
+				"source": [
+					"rnsr"
+				],
+				"label": "Bureau d'économie théorique et appliquée"
+			}
+		],
+		"links": [
+			{
+				"twitter": "http://twitter.com/agnesgermain"
+			}
+		]
+	},
+	{
+		"id": "idref11107021X",
+		"firstName": "Claude-Pierre",
+		"lastName": "Jeannerod",
+		"fullName": "CLAUD-PIERRE JEANNEROD",
+		"maidenName": null,
+		"gender": "M",
+		"externalIds": {
+			"idref": "11107021X",
+			"orcid": "0000-0003-0065-0356",
+			"id_hal": "null"
+		},
+		"dataSources": [
+			"cnrs"
+		],
+		"affiliations": [
+			{
+				"structure": "199712586Y"
+			}
+		]
+	},
+	{
+		"id": "idref152683615",
+		"firstName": "Emmanuel",
+		"lastName": "Russ",
+		"fullName": "EMMANUEL RUSS",
+		"gender": "M",
+		"externalIds": {
+			"idref": "152683615",
+			"orcid": "0000-0002-6147-7078",
+			"id_hal": "15582"
+		},
+		"dataSources": ["cnrs"],
+		"orcidCreationDate": "2017-01-01T00:00:00",
+		"roles": [
+			{
+				"role": "Expert ANR",
+				"startDate": "2015-01-01T00:00:00",
+				"endDate": "2017-01-01T00:00:00"
+			}
+		],
+		"affiliations": [
+			{
+				"structure": "199712586Y",
+				"startDate": "2015-01-01T00:00:00",
+				"source": [
+					"cnrs"
+				]
+			},
+			{
+				"structure": "180089013",
+				"startDate": "2013-01-01T00:00:00",
+				"source": [
+					"cnrs"
+				]
+			},
+			{
+				"structure": "180089047",
+				"startDate": "2011-01-01T00:00:00",
+				"endDate": "2013-01-01T00:00:00",
+				"source": [
+					"cnrs"
+				]
+			}
+		],
+		"coContributors": [
+			"idref074344331"
+		],
+		"description": "Auteur d'une thèse en Chimie à l'université de Strasbourg",
+		"deathDate": "Date",
+		"birthDate": "1985-01-01T00:00:00"
+	},
+	{
+		"id": "idref177540311",
+		"firstName": "Giovanni",
+		"lastName": "Migliorati",
+		"fullName": "GIOVANNI MIGLIORATI",
+		"externalIds": {
+			"idref": "177540311",
+			"orcid": "0000-0002-6317-5663",
+			"id_hal": "null"
+		},
+		"orcidCreationDate": "2017-01-01T00:00:00",
+		"affiliations": [
+			{
+				"structure": "130005457",
+				"startDate": "2017-01-01T00:00:00",
+				"source": [
+					"string"
+				]
+			},
+			{
+				"structure": "180089047",
+				"startDate": "2014-01-01T00:00:00",
+				"endDate": "2017-01-01T00:00:00"
+			},
+			{
+				"startDate": "2011-01-01T00:00:00",
+				"endDate": "2014-01-01T00:00:00",
+				"label": "Laboratoire d'informatique de Lyon"
+			}
+		]
+	},
+	{
+		"id": "idref179829300",
+		"firstName": "Raphaël",
+		"lastName": "Lachaume",
+		"fullName": "RAPHAEL LACHAUME",
+		"externalIds": {
+			"idref": "179829300",
+			"id_hal": "5985"
+		},
+		"dataSources": [],
+		"roles": [
+			{
+				"role": "Expert H2020",
+				"startDate": "2014-01-01T00:00:00"
+			}
+		],
+		"coContributors": [
+			"idref186361424"
+		],
+		"similarPersons": [
+			{
+				"target": "idref186361424",
+				"score": "852"
+			}
+		],
+		"focus": [
+			"CNRSMEDALS"
+		]
+	},
+	{
+		"id": "idref186361424",
+		"firstName": "Jérôme",
+		"lastName": "Michallon",
+		"fullName": "JEROME MICHALLON",
+		"externalIds": {
+			"idref": "186361424"
+		},
+		"similarPersons": [
+			{
+				"target": "idref179829300",
+				"score": "852"
+			}
+		],
+		"focus": [
+			"CNRSMEDALS"
+		],
+		"badges": [
+			{
+				"code": "PxCurie",
+				"label": [
+					{
+						"default": "Prix Irène Joliot-Curie",
+						"fr": "Prix Irène Joliot-Curie",
+						"en": "Irène Joliot-Curie Prize"
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <!-- POM version -->
+    <modelVersion>4.0.0</modelVersion>
+    <!-- Parent project -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.5.RELEASE</version>
+    </parent>
+    <!-- Project identity -->
+    <groupId>fr.gouv.recherche.scanr</groupId>
+    <artifactId>parent</artifactId>
+    <version>3.0-SNAPSHOT</version>
+    <!-- Project properties -->
+    <name>ScanR - Parent</name>
+    <packaging>pom</packaging>
+    <!-- Global properties -->
+    <properties>
+    </properties>
+    <!-- Dependencies -->
+    <dependencyManagement>
+        <dependencies>
+        </dependencies>
+    </dependencyManagement>
+    <!-- Sub modules -->
+    <modules>
+        <module>java/companies-queues</module>
+        <module>java/scanr-backend</module>
+    </modules>
+    <!-- Git config -->
+    <scm>
+        <connection>scm:git:git@github.com:ministeresuprecherche/scanr.git</connection>
+        <developerConnection>scm:git:git@github.com:ministeresuprecherche/scanr.git</developerConnection>
+        <url>scm:git:git@github.com:ministeresuprecherche/scanr.git</url>
+    </scm>
+    <!-- distributionManagement>
+        <repository>
+            <id>mynexus-release</id>
+            <url>http://mynexus.com/content/repositories/releases</url>
+            <layout>default</layout>
+        </repository>
+        <snapshotRepository>
+            <id>mynexus-snapshot</id>
+            <url>http://mynexus.com/content/repositories/snapshots</url>
+            <layout>default</layout>
+        </snapshotRepository>
+    </distributionManagement -->
+    <organization>
+        <name>MESRI</name>
+        <url>http://www.enseignementsup-recherche.gouv.fr</url>
+    </organization>
+    <!--  ciManagement>
+        <system>Jenkins (Travis ?)</system>
+        <url>https://scanr.ci.cloudbees.com/</url>
+    </ciManagement -->
+    <!-- Maven repositories -->
+    <repositories>
+        <!-- Image IO -->
+        <repository>
+            <id>imageio-ext-repository</id>
+            <name>imageio-ext Repository</name>
+            <url>http://maven.geo-solutions.it/</url>
+        </repository>
+        <!-- Start ElasticSearch Repositories. -->
+        <repository>
+            <id>oss.sonatype.org</id>
+            <name>OSS Sonatype</name>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <url>https://oss.sonatype.org/content/repositories/releases/</url>
+        </repository>
+        <repository>
+            <id>jcenter-snapshots</id>
+            <name>jcenter</name>
+            <url>http://oss.jfrog.org/artifactory/oss-snapshot-local/</url>
+        </repository>
+    </repositories>
+    <!-- Build config -->
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.wagon</groupId>
+                <artifactId>wagon-webdav-jackrabbit</artifactId>
+                <version>1.0-beta-7</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.10.1</version>
+                <configuration>
+                    <skip>true</skip>
+                    <additionalparam>-Xdoclint:none</additionalparam>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

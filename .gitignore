@@ -1,0 +1,41 @@
+# java (see also java/*/.gitignore) :
+target/
+*.jar
+
+# python :
+__pycache__/
+MANIFEST
+virtualenv/
+*.tar.gz
+
+# front (see also front/*/.gitignore) :
+node_modules/
+typings/
+build/
+coverage/
+publish/
+dist/
+package-lock.json
+*.idea
+npm-debug.log
+*.wof*
+
+# eclipse :
+*.classpath
+*.project
+*.settings
+
+# intellij :
+.idea/
+*.iml
+*.log
+*.data
+*.redo
+
+*.ipr
+*.iws
+*.db
+logs/
+*.log
+.DS_Store
+app/application.properties

@@ -1,0 +1,53 @@
+cluster:
+  name: scanesr-cluster
+  initial_master_nodes: scanr-es-node1
+node:
+  name: scanr-es-node1
+network:
+  host: 0.0.0.0
+  publish_host: _eth0_
+indices:
+  memory:
+    index_buffer_size: 50%
+  query:
+    bool:
+      max_clause_count: 4096
+bootstrap.memory_lock: true
+path:
+  repo: /usr/share/elasticsearch/data/snapshots
+http:
+  cors:
+    enabled: true
+    allow-origin: "*"
+    allow-methods: GET, POST, OPTIONS
+    allow-headers: X-Requested-With,X-Auth-Token,Content-Type,Content-Length
+    allow-credentials: true
+xpack:
+  security:
+    enabled: true
+    http:
+      ssl:
+        enabled: true
+        verification_mode: certificate
+        certificate: /usr/share/elasticsearch/config/certs/generated/scanr-elasticsearch/scanr-elasticsearch.crt
+        key: /usr/share/elasticsearch/config/certs/generated/scanr-elasticsearch/scanr-elasticsearch.key
+        certificate_authorities: 
+          - /usr/share/elasticsearch/config/certs/generated/ca/ca.crt
+          - /usr/share/elasticsearch/config/certs/swordgroup/geotrust_ca.crt
+    transport:
+      ssl:
+        enabled: true
+        verification_mode: certificate
+        certificate: /usr/share/elasticsearch/config/certs/generated/scanr-elasticsearch/scanr-elasticsearch.crt
+        key: /usr/share/elasticsearch/config/certs/generated/scanr-elasticsearch/scanr-elasticsearch.key
+        certificate_authorities:
+          - /usr/share/elasticsearch/config/certs/generated/ca/ca.crt
+          - /usr/share/elasticsearch/config/certs/swordgroup/geotrust_ca.crt
+  graph:
+    enabled: false
+  ml:
+    enabled: false
+  monitoring:
+    enabled: false
+  watcher:
+    enabled: false

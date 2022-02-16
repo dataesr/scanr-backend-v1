@@ -1,0 +1,81 @@
+{
+    "tabs": [
+        {
+            "title": "Core",
+            "svg": "core"
+        }
+    ],
+    "nodes": {
+        "FULLSTRUCTURE_UPDATED": {
+            "type": "exchange",
+            "label": "Full Company Updated"
+        },
+        "ERROR": {
+            "type": "error_count",
+            "url": "/errors"
+        },
+        "PLUGIN_ERROR": {
+            "type": "queue",
+            "input": false,
+            "output": true,
+            "label": "",
+            "placement": "top"
+        },
+        "FOCUS_CRAWLER": {
+            "type": "queue",
+            "input": true,
+            "output": true,
+            "label": "Crawler",
+            "placement": "left"
+        },
+        "SCREENSHOT": {
+            "type": "queue",
+            "input": true,
+            "output": true,
+            "label": "Screenshot",
+            "placement": "left"
+        },
+        "CORE_EXTRACTOR": {
+            "type": "queue",
+            "input": true,
+            "output": true,
+            "label": "Core Extractor",
+            "placement": "left"
+        },
+        "INDEX_STRUCTURE": {
+            "type": "queue",
+            "input": false,
+            "output": true,
+            "label": "Full Structure Indexer",
+            "placement": "top"
+        },
+        "menesr:spp": {
+            "type": "schedule",
+            "input": false,
+            "output": false,
+            "label": "Structures, Projects, Publis",
+            "placement": "bottom"
+        },
+        "crawl:all": {
+            "type": "schedule",
+            "input": false,
+            "output": false,
+            "label": "Re crawl",
+            "placement": "bottom"
+        },
+        "index:updated": {
+            "type": "schedule",
+            "input": false,
+            "output": false,
+            "label": "Index Updated",
+            "placement": "top"
+        },
+        "errors:recover": {
+            "type": "schedule",
+            "input": false,
+            "output": false,
+            "label": "Errors Recover",
+            "placement": "bottom"
+        }
+    }
+}

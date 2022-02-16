@@ -1,0 +1,59 @@
+filebeat.inputs:
+  - type: log 
+    paths:
+      - "/var/log/scanr-backend_app/application*.log"
+      - "/var/log/scanr-backend_app/log_error*.log"
+      - "/var/log/scanr-backend_workflow/application*.log"
+      - "/var/log/scanr-backend_workflow/log_error*.log"
+    fields:
+      app: "scanr-backend"
+    fields_under_root: true
+    encoding: utf-8
+    scan_frequency: 10s
+    # Tout ce qui ne commence pas par une date est lié au log d'avant
+    multiline.pattern: ^(\d{4}-[01]\d-[0-3]\d\s[0-2]\d:[0-5]\d:[0-5]\d[\.,]\d{3})
+    multiline.negate: true
+    multiline.match: after    
+
+logging.level: warning
+
+processors:
+  #- if:
+  #    equals:
+  #      app: "scanr-backend"
+  #  then:
+      - dissect:
+          tokenizer: '%{log_date} [%{}] %{log_level} - %{log_class} - %{full_message}'
+          field: "message"
+          target_prefix: ""
+      - timestamp:
+          field: log_date
+          timezone: Europe/Paris
+          layouts:
+            - '2006-01-02 15:04:05.000'
+          test:
+            - '2006-01-02 15:04:05.000'
+      #- drop_fields:
+      #    fields: [log_date]
+
+output.elasticsearch:
+  hosts: https://scanr-elasticsearch:9200
+  username: filebeat
+  password: g8O3TfRR2478MMbc
+  ssl:
+    enabled: true
+    certificate: "/usr/share/filebeat/config/certs/generated/scanr-filebeat/scanr-filebeat.crt"
+    key: "/usr/share/filebeat/config/certs/generated/scanr-filebeat/scanr-filebeat.key"
+    verification_mode: certificate
+    certificate_authorities:
+      - /usr/share/filebeat/config/certs/generated/ca/ca.crt
+      - /usr/share/filebeat/config/certs/swordgroup/geotrust_ca.crt
+
+setup.template.name: "filebeat-backend"
+setup.template.pattern: "filebeat-backend-*"
+setup.template.settings:
+  index.number_of_shards: 1
+  index.number_of_replicas: 0
+setup.ilm.rollover_alias: "filebeat-backend-%{[agent.version]}"
+setup.ilm.pattern: "000001"
+setup.ilm.policy_name: "filebeat-backend"

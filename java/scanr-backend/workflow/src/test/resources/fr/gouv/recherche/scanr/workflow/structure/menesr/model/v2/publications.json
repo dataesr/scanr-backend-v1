@@ -1,0 +1,362 @@
+[
+	{
+		"id": "doi10.1007/s00208-016-1394-1",
+		"type": "ART",
+		"title": {
+			"default": "Comparison results and improved quantified inequalities for semilinear elliptic equations"
+		},
+		"summary": {
+			"default": "International audienceIn this paper, we prove some pointwise comparison results between the solutions of some second-order semilinear elliptic equations in a domain Ω of R n and the solutions of some radially symmetric equations in the equimeasurable ball Ω *. The coefficients of the symmetrized equations in Ω * satisfy similar constraints as the original ones in Ω. We consider both the case of equations with linear growth in the gradient and the case of equations with at most quadratic growth in the gradient. Moreover, we show some improved quantified comparisons when the original domain is not a ball. The method is based on a symmetrization of the second-order terms"
+		},
+		"authors": [
+			{
+				"role": "author",
+				"firstName": "François",
+				"lastName": "Hamel",
+				"fullName": "François Hamel",
+				"affiliations": [
+					{
+						"structure": "199712586Y"
+					}
+				]
+			},
+			{
+				"person": "idref152683615",
+				"role": "author",
+				"firstName": "Emmanuel",
+				"lastName": "Russ",
+				"fullName": "Emmanuel Russ",
+				"affiliations": [
+					{
+						"structure": "200711886U"
+					}
+				]
+			}
+		],
+		"isOa": true,
+		"publicationDate": "2017-01-01T00:00:00",
+		"projects": [
+			"321186",
+			"ANR-14-CE25-0013"
+		],
+		"keywords": {
+			"en": [
+				"GRADIENT",
+				"ORDER TERMS",
+				"NATURAL GROWTH",
+				"EXISTENCE RESULT",
+				"UNIQUENESS",
+				"SYMMETRIZATION",
+				"NONLINEAR PROBLEMS",
+				"DIFFERENTIAL-EQUATION",
+				"ISOPERIMETRIC-INEQUALITIES",
+				"QUADRATIC GROWTH"
+			]
+		},
+		"isFrench": true,
+		"oaEvidence": {
+			"url": "https://hal.archives-ouvertes.fr/hal-01257408/document"
+		},
+		"source": {
+			"publisher": "Springer Verlag",
+			"issue": "1-2",
+			"pagination": "311 - 372",
+			"title": "Mathematische Annalen",
+			"journalIssns": [
+				"0025-5831",
+				"1432-1807"
+			]
+		}
+	},
+	{
+		"id": "doi10.1090/mcom/3123",
+		"type": "ART",
+		"title": {
+			"default": "Error bounds on complex floating-point multiplication with an FMA"
+		},
+		"summary": {
+			"default": "International audienceThe accuracy analysis of complex floating-point multiplication done by Brent, Percival, and Zimmermann [Math. Comp., 76:1469–1481, 2007] is extended to the case where a fused multiply-add (FMA) operation is available. Considering floating-point arithmetic with rounding to nearest and unit roundoff u, we show that their bound √ 5 u on the normwise relative error | z/z − 1| of a complex product z can be decreased further to 2u when using the FMA in the most naive way. Furthermore, we prove that the term 2u is asymptotically optimal not only for this naive FMA-based algorithm but also for two other algorithms, which use the FMA operation as an efficient way of implementing rounding error compensation. Thus, although highly accurate in the componentwise sense, these two compensated algorithms bring no improvement to the normwise accuracy 2u already achieved using the FMA naively. Asymptotic optimality is established for each algorithm thanks to the explicit construction of floating-point inputs for which we prove that the normwise relative error then generated satisfies | z/z − 1| → 2u as u → 0. All our results hold for IEEE floating-point arithmetic, with radix β, precision p, and rounding to nearest; it is only assumed that underflows and overflows do not occur and that $\\beta^{p−1} \\ge 24$"
+		},
+		"authors": [
+			{
+				"person": "idref11107021X",
+				"role": "author",
+				"firstName": "Claude-Pierre",
+				"lastName": "Jeannerod",
+				"fullName": "Claude-Pierre Jeannerod",
+				"affiliations": [
+					{
+						"structure": "130005457"
+					},
+					{
+						"label": "Arithmetic and Computing ; docid_hal_178327"
+					}
+				]
+			},
+			{
+				"person": "idref029762871",
+				"role": "author",
+				"firstName": "Jean-Michel",
+				"lastName": "Muller",
+				"fullName": "Jean-Michel Muller",
+				"affiliations": [
+					{
+						"structure": "199712586Y"
+					},
+					{
+						"label": "Arithmetic and Computing ; docid_hal_178327"
+					}
+				]
+			}
+		],
+		"isOa": true,
+		"publicationDate": "2017-01-01T00:00:00",
+		"projects": [
+			"ANR-13-INSE-0007"
+		],
+		"isFrench": true,
+		"oaEvidence": {
+			"url": "https://hal.inria.fr/hal-00867040/document"
+		},
+		"source": {
+			"publisher": "American Mathematical Society",
+			"issue": "304",
+			"pagination": "pp. 881-898",
+			"title": "Mathematics of Computation",
+			"journalIssns": [
+				"0025-5718"
+			]
+		}
+	},
+	{
+		"id": "doi10.1007/s00033-016-0744-x",
+		"type": "ART",
+		"title": {
+			"default": "On the Navier–Stokes system with the Coulomb friction law boundary condition"
+		},
+		"summary": {
+			"default": "We propose a new model for the motion of a viscous incompressible fluid. More precisely, we consider the Navier–Stokes system with a boundary condition governed by the Coulomb friction law. With this boundary condition, the fluid can slip on the boundary if the tangential component of the stress tensor is too large. We prove the existence and uniqueness of weak solution in the two–dimensional problem and the existence of at least one solution in the three–dimensional case, together with regularity properties and an energy estimate. We also propose a fully discrete scheme of our problem using the characteristic method and we present numerical simulations in two physical examples."
+		},
+		"authors": [
+			{
+				"role": "author",
+				"firstName": "Loredana",
+				"lastName": "Bălilescu",
+				"fullName": "Loredana Bălilescu",
+				"affiliations": [
+					{
+						"label": "Departamento de Matemática [Florianópolis] ; docid_hal_190342"
+					},
+					{
+						"label": "Department of Mathematics [Pitesti] ; docid_hal_155893"
+					}
+				]
+			},
+			{
+				"role": "author",
+				"firstName": "Jorge",
+				"lastName": "San Martín",
+				"fullName": "Jorge San Martín",
+				"affiliations": [
+					{
+						"label": "Center for Mathematical Modeling ; docid_hal_227891"
+					},
+					{
+						"label": "Departamento de Ingeniería Matemática [Santiago] ; docid_hal_18014"
+					}
+				]
+			},
+			{
+				"person": "idref07120489X",
+				"role": "author",
+				"firstName": "Takéo",
+				"lastName": "Takahashi",
+				"fullName": "Takéo Takahashi",
+				"affiliations": [
+					{
+						"label": "Systems with physical heterogeneities : inverse problems, numerical simulation, control and stabilization ; docid_hal_418609"
+					},
+					{
+						"structure": "199712586Y"
+					}
+				]
+			}
+		],
+		"similarPublications": [
+			{
+				"target": "doi10.1051/m2an/2016045",
+				"score": "185"
+			},
+			{
+				"target": "doi10.1002/pssc.201700181",
+				"score": "542"
+			}
+		],
+		"citations": [
+			"doi10.1051/m2an/2016045", "doi10.1002/pssc.201700181"
+		],
+		"isOa": true,
+		"publicationDate": "2017-01-01T00:00:00",
+		"projects": [
+			"ANR-15-CE40-0010"
+		],
+		"isFrench": true,
+		"oaEvidence": {
+			"url": "https://hal.archives-ouvertes.fr/hal-01393709/document"
+		},
+		"source": {
+			"publisher": "Springer Verlag",
+			"issue": "3",
+			"title": "Zeitschrift für Angewandte Mathematik und Physik",
+			"journalIssns": [
+				"0044-2275",
+				"1420-9039"
+			]
+		}
+	},
+	{
+		"id": "doi10.1051/m2an/2016045",
+		"type": "ART",
+		"title": {
+			"default": "Sparse polynomial approximation of parametric elliptic PDEs Part I: affine coefficients"
+		},
+		"summary": {
+			"default": "International audienceWe consider the linear elliptic equation −div(a∇u) = f on some bounded domain D, where a has the affine form a = a(y) = ¯ a + j≥1 y j ψ j for some parameter vector y = (y j) j≥1 ∈ U = [−1, 1] N. We study the summability properties of polynomial expansions of the solution map y → u(y) ∈ V := H 1 0 (D). We consider both Taylor series and Legendre series. Previous results [8] show that, under a uniform ellipticity assuption, for any 0 < p < 1, the p summability of the (j L ∞) j≥1 implies the p summability of the V-norms of the Taylor or Legendre coefficients. Such results ensure convergence rates n −s of polynomial approximations obtained by best n-term truncation of such series, with s = 1 p −1 in L ∞ (U, V) or s = 1 p − 1 2 in L 2 (U, V). In this paper we considerably improve these results by providing sufficient conditions of p summability of the coefficient V-norm sequences expressed in terms of the pointwise summability properties of the (|ψ j |) j≥1. Our approach strongly differs from that of [8], which is based on individual estimates of the coefficient norms obtained by the Cauchy formula applied to a holomorphic extension of the solution map. Here, we use weighted summability estimates, obtained by real-variable arguments. While our results imply those of [8] as a particular case, they lead to a refined analysis which takes into account the amount of overlap between the supports of the ψ j. For instance, in the case of disjoint supports, our results imply that for all 0 < p < 2, the p summability of the coefficient V-norm sequences follows from the weaker assumption that (j L ∞) j≥1 is q summable for q = q(p) := 2p 2−p > p. We provide a simple analytic example showing that this result is in general optimal and illustrate our findings by numerical experiments. Our analysis applies to other types of linear PDEs with similar affine parametrization of the coefficients"
+		},
+		"authors": [
+			{
+				"role": "author",
+				"firstName": "Markus",
+				"lastName": "Bachmayr",
+				"fullName": "Markus Bachmayr",
+				"affiliations": [
+					{
+						"structure": "199712586Y"
+					}
+				]
+			},
+			{
+				"role": "author",
+				"firstName": "Albert",
+				"lastName": "Cohen",
+				"fullName": "Albert Cohen",
+				"affiliations": [
+					{
+						"structure": "200711886U"
+					}
+				]
+			},
+			{
+				"person": "idref177540311",
+				"role": "author",
+				"firstName": "Giovanni",
+				"lastName": "Migliorati",
+				"fullName": "Giovanni Migliorati",
+				"affiliations": [
+					{
+						"structure": "130005457"
+					}
+				]
+			}
+		],
+		"isOa": true,
+		"publicationDate": "2017-01-01T00:00:00",
+		"projects": [
+			"338977"
+		],
+		"keywords": {
+			"en": [
+				"Affine coefficients",
+				"Parametric PDEs",
+				"N-term approximation",
+				"Legendre polynomials"
+			]
+		},
+		"isFrench": true,
+		"oaEvidence": {
+			"url": "https://hal.archives-ouvertes.fr/hal-01217388/document"
+		},
+		"source": {
+			"publisher": "EDP sciences SMAI",
+			"title": "Modelisation Mathématique et Analyse Numérique"
+		}
+	},
+	{
+		"id": "doi10.1002/pssc.201700181",
+		"type": "ART",
+		"title": {
+			"default": "Coupling Optical and Electrical Modelling for the study of a-Si:H-based nanowire Array Solar Cells"
+		},
+		"summary": {
+			"default": "International audienceCoupled optical/electrical simulations have been performed on solar cells consisting in arrays of p‐i‐n radial nanowires based on crystalline p‐type silicon (c‐Si) core/hydrogenated amorphous silicon (a‐Si:H) shell heterojunctions. Three‐dimensional (3D) optical calculations based on rigorous coupled wave analysis (RCWA) are firstly performed and then coupled to a semiconductor device simulator that exploits the radial symmetry of the nanowires. By varying either the doping concentration of the c‐Si core, or the work function of the Al‐doped ZnO (AZO) back contact we can separate and originally highlight the contribution to the cells performance of the nanowires themselves (the radial cell) from the planar part in between the nanowires (the planar cell). We show that the short‐circuit current density (Jsc) only depends on the doping of the c‐Si core indicating that it is mainly influenced by the radial cell. On the contrary the open‐circuit voltage (Voc) is strongly affected by the back contact conditions (AZO work function), revealing an important impact of the interspacing between the nanowires on the characteristics of the entire nanowire array. We explain this strong influence of the back contact conditions by the fact that it determines the band‐bending in the a‐Si:H absorber shell touching the AZO, i.e. in the planar part. Therefore, it directly impacts the potential drop (Vbi) in the same area. For low AZO work functions, the dark current density (Jdark) is increased in the planar region, where Vbi is lower, which degrades the Voc of the entire cell"
+		},
+		"citations": [
+			"doi10.1051/m2an/2016045"
+		],
+		"authors": [
+			{
+				"role": "author",
+				"firstName": "Alexandra",
+				"lastName": "Levtchenko",
+				"fullName": "Alexandra Levtchenko",
+				"affiliations": [
+					{
+						"structure": "016650996"
+					}
+				]
+			},
+			{
+				"person": "idref179829300",
+				"role": "author",
+				"firstName": "Raphaël",
+				"lastName": "Lachaume",
+				"fullName": "Raphaël Lachaume",
+				"affiliations": [
+					{
+						"label": "Institut Photovoltaïque d’Ile-de-France ; docid_hal_447559"
+					},
+					{
+						"structure": "199712586Y"
+					}
+				]
+			},
+			{
+				"person": "idref186361424",
+				"role": "author",
+				"firstName": "Jérôme",
+				"lastName": "Michallon",
+				"fullName": "Jérôme Michallon",
+				"affiliations": [
+					{
+						"structure": "199712586Y"
+					},
+					{
+						"label": "Laboratoire de photonique et de nanostructures ; docid_hal_411"
+					},
+					{
+						"label": "Institut Photovoltaïque d’Ile-de-France ; docid_hal_447559"
+					}
+				]
+			}
+		],
+		"isOa": true,
+		"publicationDate": "2017-01-01T00:00:00",
+		"projects": [
+			"ANR-14-CE05-0025"
+		],
+		"isFrench": true,
+		"oaEvidence": {
+			"url": "https://hal.archives-ouvertes.fr/hal-01589258/document"
+		},
+		"source": {
+			"publisher": "Wiley",
+			"issue": "10",
+			"pagination": "1700181",
+			"title": "physica status solidi (c)",
+			"journalIssns": [
+				"1610-1634",
+				"1610-1642"
+			]
+		}
+	}
+]

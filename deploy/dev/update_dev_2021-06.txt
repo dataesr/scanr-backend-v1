@@ -1,0 +1,104 @@
+###################################
+Install en DEV pour APP et WORKFLOW
+###################################
+
+sudo su - root
+
+mkdir /var/deployV3
+cp -rf /home/sword/install/scanesr/deploy/prod/* /var/deployV3/
+cp -rf /home/sword/install/scanesr/deploy/dev/* /var/deployV3/
+cp -rf /var/deploy/etc/* /etc/
+
+cd /home/sword/install/scanesr
+# Copie de la lib elastic-utils dans le repo maven, ce n'est pas configuré pour taper sur notre Nexus ?
+cp -rf ../maven/com/* /root/.m2/repository/com
+mvn clean install
+
+cd java/docker
+
+# App
+cp -rf ../scanr-backend/app/target/app-3.0-SNAPSHOT.jar .
+docker build -f Dockerfile.springboot --build-arg JAR_FILE=app-3.0-SNAPSHOT.jar -t fr.gouv.recherche.scanr/app:3.0-SNAPSHOT .
+
+docker stop scanr-backend-app
+docker rm scanr-backend-app
+
+docker create \
+--name scanr-backend-app \
+--net=scanr \
+--hostname scanr-backend-app \
+-v /var/db/scanr-screenshots:/var/db/scanr-screenshots \
+-v /var/log/scanr-backend_app:/logs \
+-v /var/deployV3/scanr-backend_app/config/application.properties:/application.properties \
+-v /var/deployV3/scanr-elasticsearch/certificates/generated/ca/ca.crt:/ca.crt \
+-p 88:8080 \
+-e VIRTUAL_HOST=scanr.local \
+-e LETSENCRYPT_HOST=scanr.local \
+-e LETSENCRYPT_EMAIL=mail@mail.com \
+-e VIRTUAL_PATH=/api \
+--log-opt max-size=200m --log-opt max-file=5 \
+--restart=unless-stopped \
+fr.gouv.recherche.scanr/app:3.0-SNAPSHOT
+
+docker network connect scanr-private scanr-backend-app
+docker start scanr-backend-app
+
+# Workflow
+
+cp -rf ../scanr-backend/workflow/target/workflow-3.0-SNAPSHOT.jar .
+docker build -f Dockerfile.springboot --build-arg JAR_FILE=workflow-3.0-SNAPSHOT.jar -t fr.gouv.recherche.scanr/workflow:3.0-SNAPSHOT .
+
+docker stop scanr-backend-workflow
+docker rm scanr-backend-workflow
+
+docker create \
+--name scanr-backend-workflow \
+--hostname scanr-backend-workflow \
+--net=scanr \
+-v /var/db/scanr-screenshots:/var/db/scanr-screenshots \
+-v /var/log/scanr-backend_workflow:/logs \
+-v /var/deployV3/scanr-backend_workflow/config/application.properties:/application.properties \
+-v /var/deployV3/scanr-elasticsearch/certificates/generated/ca/ca.crt:/ca.crt \
+-p 8080:8080 \
+-e VIRTUAL_HOST=scanr-admin.local \
+-e LETSENCRYPT_HOST=scanr-admin.local \
+-e LETSENCRYPT_EMAIL=mail@mail.com \
+-e VIRTUAL_PATH=/api \
+--log-opt max-size=200m --log-opt max-file=5 \
+--restart=unless-stopped \
+fr.gouv.recherche.scanr/workflow:3.0-SNAPSHOT
+
+docker network connect scanr-private scanr-backend-workflow
+docker start scanr-backend-workflow
+
+# Filebeat
+
+## Backend
+docker run -d \
+--name scanr-filebeat-backend \
+--hostname scanr-filebeat-backend \
+--network scanr-private \
+-v /var/deployV3/scanr-filebeat/filebeat-backend.yml:/usr/share/filebeat/filebeat.yml \
+-v /var/deployV3/scanr-elasticsearch/certificates:/usr/share/filebeat/config/certs \
+-v /var/log/scanr-backend_app:/var/log/scanr-backend_app \
+-v /var/log/scanr-backend_workflow:/var/log/scanr-backend_workflow \
+--log-opt max-size=200m --log-opt max-file=5 \
+--restart=unless-stopped \
+docker.elastic.co/beats/filebeat:7.16.2
+
+## Nginx
+docker run -d \
+--name scanr-filebeat-nginx \
+--hostname scanr-filebeat-nginx \
+--network scanr-private \
+-v /var/deployV3/scanr-filebeat/filebeat-nginx.yml:/usr/share/filebeat/filebeat.yml \
+-v /var/deployV3/scanr-elasticsearch/certificates:/usr/share/filebeat/config/certs \
+-v /var/log/scanr-nginx:/var/log/nginx \
+--log-opt max-size=200m --log-opt max-file=5 \
+--restart=unless-stopped \
+docker.elastic.co/beats/filebeat:7.16.2
+
+docker exec -ti -u root scanr-filebeat-nginx bash
+> mkdir -p dashboards/7/dashboard
+> cp kibana/7/dashboard/Filebeat-nginx* dashboards/7/dashboard/.
+> ./filebeat setup --dashboards

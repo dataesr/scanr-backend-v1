@@ -1,0 +1,26 @@
+FROM pythondp
+
+ARG ARTIFACT
+ARG VERSION
+
+WORKDIR /tmp
+ENV LC_ALL=en_US.utf8
+
+ADD $ARTIFACT*.tar.gz /tmp/
+RUN ls -l /tmp/
+# [SWORD] $ARTIFACT* and not $ARTIFACT because the directory contains the version
+RUN mv $ARTIFACT* /application
+
+WORKDIR /application
+
+# [SWORD] as in dev else  wheelhouse error : Could not find a version that satisfies the requirement companies_plugin==1.21 (from -r deps.txt (line 3)) (from versions: ) No matching distribution found for companies_plugin==1.21 (from -r deps.txt (line 3))
+#RUN pyvenv /appenv && . /appenv/bin/activate && pip install -U pip  && \
+#	pip wheel -r deps.txt && \
+#    pip install -U -r deps.txt
+RUN pyvenv /appenv && . /appenv/bin/activate && \
+    cd /application && ./tools/deps.sh
+    
+ENV MODULE=$ARTIFACT
+ADD run.sh .
+RUN chmod +x run.sh
+ENTRYPOINT ["./run.sh", "--conf", "./config.json"]

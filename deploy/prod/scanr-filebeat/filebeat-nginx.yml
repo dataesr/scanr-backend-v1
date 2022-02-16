@@ -1,0 +1,44 @@
+filebeat.modules:
+  - module: nginx
+
+logging.level: warning
+
+output.elasticsearch:
+  hosts: https://scanr-elasticsearch:9200
+  username: filebeat
+  password: Pa$$wOrd
+  ssl:
+    enabled: true
+    certificate: "/usr/share/filebeat/config/certs/generated/scanr-filebeat/scanr-filebeat.crt"
+    key: "/usr/share/filebeat/config/certs/generated/scanr-filebeat/scanr-filebeat.key"
+    verification_mode: certificate
+    certificate_authorities:
+      - /usr/share/filebeat/config/certs/generated/ca/ca.crt
+      - /usr/share/filebeat/config/certs/geotrust_ca.crt
+
+setup.template.name: "filebeat-nginx"
+setup.template.pattern: "filebeat-nginx-*"
+setup.template.settings:
+  index.number_of_shards: 1
+  index.number_of_replicas: 0
+setup.ilm.rollover_alias: "filebeat-nginx-%{[agent.version]}"
+setup.ilm.pattern: "000001"
+setup.ilm.policy_name: "filebeat-nginx"
+
+# Conf Kibana pour loader les dashboards
+# Désactivé par défaut, à lancer depuis le container avec la commande ./filebeat setup --dashboards
+#  après avoir copié les dashboards désirés (nginx) de /usr/share/filebeat/kibana vers /usr/share/filebeat/dashboards
+#  (pour ne pas charger tous les dashboards beats)
+setup.dashboards.enabled: false
+setup.dashboards.index: "filebeat-nginx-*"
+setup.dashboards.directory: /usr/share/filebeat/dashboards
+setup.kibana:
+  host: https://scanr-kibana:5601
+  username: scanr
+  password: Pa$$wOrd
+  ssl:
+    enabled: true
+    verification_mode: certificate
+    certificate_authorities:
+      - /usr/share/filebeat/config/certs/generated/ca/ca.crt
+      - /usr/share/filebeat/config/certs/geotrust_ca.crt

@@ -1,0 +1,39 @@
+FROM pythondp
+
+ARG ARTIFACT
+ARG VERSION
+
+WORKDIR /tmp
+ENV LC_ALL=en_US.utf8
+
+ADD $ARTIFACT*.tar.gz /tmp/
+RUN ls -l /tmp/
+# [SWORD] $ARTIFACT* and not $ARTIFACT because the directory contains the version
+RUN mv $ARTIFACT* /application
+
+WORKDIR /application
+
+
+# install node.js & phantomjs
+RUN apt-get update && apt-get install -y fontconfig libfreetype6 && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+#ENV NODE_VERSION=0.10.23
+ENV NODE_VERSION=10.4.0
+#ENV NODE_DIR=/node-v0.10.23-linux-x64
+ENV NODE_DIR=/node-v10.4.0-linux-x64
+RUN wget -q https://nodejs.org/download/release/v$NODE_VERSION/node-v$NODE_VERSION-linux-x64.tar.gz -O- | tar zxv
+# --unsafe-perm else Phantom installation failed { [Error: EACCES: permission denied, link '/tmp/phantomjs/phantomjs-1.9.8-linux-x86_64.tar.bz2-extract-1528478223058/phantomjs-1.9.8-linux-x86_64' -> '/usr/lib/node_modules/phantomjs/lib/phantom'] https://github.com/Alex-Rose/fb-messenger-cli/issues/94#issuecomment-333047050
+RUN PATH=$PATH:/application/$NODE_DIR/bin && npm -g install phantomjs@1.9 --unsafe-perm
+#RUN wget -O - https://deb.nodesource.com/setup_10.x | bash - && apt-get install -y nodejs && npm -g install phantomjs@1.9 --unsafe-perm
+
+
+# [SWORD] as in dev else  wheelhouse error : Could not find a version that satisfies the requirement companies_plugin==1.21 (from -r deps.txt (line 3)) (from versions: ) No matching distribution found for companies_plugin==1.21 (from -r deps.txt (line 3))
+#RUN pyvenv /appenv && . /appenv/bin/activate && pip install -U pip  && \
+#	pip wheel -r deps.txt && \
+#    pip install -U -r deps.txt
+RUN pyvenv /appenv && . /appenv/bin/activate && ./tools/deps.sh
+    
+ENV MODULE=$ARTIFACT
+ADD run.sh .
+RUN chmod +x run.sh
+#ENTRYPOINT ["/bin/ls", "/application/node-v0.10.23-linux-x64/lib/node_modules/phantomjs/lib/phantom/bin/phantomjs"]
+ENTRYPOINT ["./run.sh", "--conf", "./config.json"]

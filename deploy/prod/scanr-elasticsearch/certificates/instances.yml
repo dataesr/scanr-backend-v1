@@ -1,0 +1,24 @@
+instances:
+  - name: scanr-elasticsearch
+    dns:
+      - scanr-elasticsearch
+      - scanr-api.enseignementsup-recherche.gouv.fr
+      - localhost
+    ip:
+      - 127.0.0.1
+
+  - name: scanr-kibana
+    dns:
+      - scanr-kibana
+      - scanr-api.enseignementsup-recherche.gouv.fr
+      - localhost
+    ip:
+      - 127.0.0.1
+      
+  - name: scanr-filebeat
+    dns:
+      - scanr-filebeat
+      - scanr-api.enseignementsup-recherche.gouv.fr
+      - localhost
+    ip:
+      - 127.0.0.1

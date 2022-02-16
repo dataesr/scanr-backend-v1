@@ -1,0 +1,4 @@
+# your deps here
+requests
+companies_plugin==1.21
+pyquery

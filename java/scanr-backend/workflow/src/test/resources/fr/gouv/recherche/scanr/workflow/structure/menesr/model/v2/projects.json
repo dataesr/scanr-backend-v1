@@ -1,0 +1,220 @@
+[
+     {
+        "id": "ANR-14-CE25-0013",
+        "type": "ANR",
+        "label": [
+            {
+                "default" : "Stratégies adaptatives d'allocation des ressources dans les réseaux sans fil dynamiques"
+            }
+        ],
+        "year": "2014",
+        "duration": 36,
+        "participants": [
+            {
+                "structure" : "199712586Y",
+                "role": "participant"
+            },
+            {
+                "structure" : "200711886U",
+                "role": "participant"
+            },
+            {
+                "role": "participant",
+                "label": "Université de Bordeaux"
+            }
+        ],
+        "call": {
+            "id": "123",
+            "label": "Appel a projet nanotech"
+        },
+        "action": {
+            "id": "321",
+            "label": "string",
+            "level": "string"
+        },
+        "persons": [
+          {
+            "person" : "idref07120489X",
+            "role": "Chercheur"
+          },
+          {
+            "person" : "idref029762871",
+            "role": "Coordinateur"
+          }
+        ],
+        "similarProjects": [
+          {
+            "target" : "321186",
+            "score": "32"
+          }
+        ],
+        "associatedProjects": [
+            "0044-2275"
+        ]
+    },
+    {
+        "id": "321186",
+        "type": "H2020",
+        "label": [
+            {
+                "default" : "Interoperable Pervasive Systems"
+            }
+        ],
+        "acronym": [
+            {
+                "default" : "INTEROP"
+            }
+        ],
+        "year": 2016,
+        "startDate": "2016-01-01T00:00:00",
+        "budgetFinanced": "171000",
+        "duration": 24,
+        "description": [
+            {
+                "default" : "Le but de ce projet est de développer des architectures, modèles et algorithmes favorisant l’interopérabilité dans les environnements pervasifs. Ainsi, une application exécutée sur une plate-forme pervasive pourrait utiliser les services fournis par une autre plate-forme. Ceci soulève des défis scientifiques importants. "
+            }
+        ],
+        "participants": [
+            {
+                "structure" : "200711886U"
+            }
+        ],
+        "signatureDate": "2016-01-01T00:00:00",
+        "keywords": {
+            "fr" : [ "architectures", "modèles", "algorithmes"  ]
+        }
+    },
+    {
+        "id": "ANR-13-INSE-0007",
+        "type": "ANR",
+        "label": [
+            {
+                "default" : "Intégration de données hétérogènes et raisonnement spatial pour l’aide à la localisation des victimes en montagne"
+            }
+        ],
+        "year": 2016,
+        "participants": [
+            {
+                "structure" : "180089047",
+                "role": "participant"
+            },
+            {
+                "structure" : "200711886U",
+                "role": "participant"
+            },
+            {
+                "structure" : "130005457",
+                "role": "participant"
+            },
+            {
+                "structure" : "199712586Y",
+                "role": "participant"
+            }
+        ],
+        "signatureDate": "2016-01-01T00:00:00",
+        "persons": [
+          {
+            "person": "idref07120489X",
+      		"firstName": "Takéo",
+      		"lastName": "Takahashi"
+          }
+        ],
+        "similarProjects": [
+          {
+            "target" : "0044-2275",
+            "score": "86"
+          }
+        ]
+    },
+    {
+        "id": "0044-2275",
+        "type": "ANR",
+        "label": [
+            {
+                "default" : "Projet Anatomy2020",
+                "fr" : "Projet Anatomy2020"
+            }
+        ],
+        "acronym": [
+            {
+                "default" : "ACRO",
+                "fr" : "ACRO"
+            }
+        ],
+        "year": 2017,
+        "startDate": "2017-01-01T00:00:00",
+        "endDate": "Date",
+        "budgetTotal": 500000,
+        "budgetFinanced": 314000,
+        "duration": 24,
+        "url": "www.anr.fr/ANR-14",
+        "projectUrl": "www.projecturl.fr",
+        "description": [
+            {
+                "default" : "An@tomy2020 aims at developing an innovative educational platform to facilitate learning of functional anatomy. This platform will integrate recent advances in computer graphics, human-computer interaction together with recent insights in educational and cognitive sciences to design and test optimal scenarios for anatomy learning. It will also provide new advances in these respective areas of research. The approach is based on evidences that body movements could improve learning of different knowledge by augmenting or enriching traces in long-term memory. This embodied perspective is particularly relevant for learning of functional anatomy as the knowledge to acquire could be specifically related to the learner’s body in motion. An@tomy2020 will allow connecting learner’s body to anatomical knowledge by tackling technical challenges in relation to pedagogical challenges. Real-time animation of an anatomically realistic model of the user from data acquired with commodity depth sensors and suitable pieces of knowledge extracted from anatomical ontology will be associated with interaction techniques. These associations will favor the construction of 3D spatial representations of the body in motion and the embodiment of knowledge. Our educational tool will thus boost the learners’ spatial abilities helping them building a better spatial representation of the anatomical structure. Optimal interactive techniques will be evaluated. In parallel, the platform will be experienced with medicine and kinesiology students, in real learning conditions. The project is thus organized along three main scientific axes. The aim of the first axis is to provide scientific approaches and technical solutions to capture and animate an accurate model of the user’s body in real-time. A high quality anatomy transfer is required to generate augmented reality views of the user from a deformed generic model. The second axis is dedicated to interaction techniques for precise and seamless interaction in the mixed environment. The aim is to design optimal interaction techniques based on augmented reality methods. Users’ evaluations will be ran to measure their effects on users’ performances, usage convenience, but also on the way knowledge is acquired and represented in users’ memory. The third axis is related to the educational contents and the metrics used for evaluation of trainee abilities. The aim will be to design and test learning scenarios that will integrate the new tools and allow their adaptations to real needs. This will allow drawing the contours of the integration of this new tool in university courses. The project also includes technical challenges related to the integration of the different tools, results and resources in the platform."
+            }
+        ],
+        "participants": [
+            {
+                "structure" : "199712586Y",
+                "founding": "64000"
+            },
+            {
+                "structure" : "130005457",
+                "role": "Coordinateur",
+                "label": "UNISTRA",
+                "url": "www.unistra.fr",
+                "founding": "250000"
+            }
+        ],
+        "signatureDate": "Date",
+        "call": {
+            "label": "Appel a projet Blanc"
+        },
+        "action": {
+            "label": "Programme BLANC",
+            "level": "2"
+        },
+        "persons": [
+          {
+            "person": "idref074308297",
+      		"firstName": "Éric",
+      		"lastName": "Gaussier",
+            "role": "Responsable scientifique",
+            "email": "string"
+          }
+        ],
+        "similarProjects": [
+          {
+            "target" : "0044-2275",
+            "score": "134"
+        },
+          {
+            "target" : "ANR-14-CE25-0013",
+            "score": "113"
+          }
+        ],
+        "associatedProjects": [
+            "ANR-14-CE25-0013"
+        ],
+        "focus": [
+            "H2020-2017"
+        ],
+        "badges": [
+			{
+				"code": "PxCurie",
+				"label": [
+					{
+						"default": "Prix Irène Joliot-Curie",
+						"fr": "Prix Irène Joliot-Curie",
+						"en": "Irène Joliot-Curie Prize"
+					}
+				]
+			}
+		],
+        "keywords": {
+            "fr" : [ "nanotechnologie" ],
+            "en" : [ "nanotechnology" ]
+        }
+    }
+]

@@ -1,0 +1,32 @@
+server:
+  name: scanr-kibana
+  host: "0.0.0.0"
+  ssl:
+    enabled: true
+    certificate: /usr/share/kibana/config/certs/generated/scanr-kibana/scanr-kibana.crt
+    key: /usr/share/kibana/config/certs/generated/scanr-kibana/scanr-kibana.key
+
+elasticsearch:
+  hosts:
+    - https://scanr-elasticsearch:9200
+  username: "kibana_system"
+  # Password needs to be the one defined in the ES cluster
+  password: "Pa$$wOrd"
+  ssl:
+    certificateAuthorities:
+      - /usr/share/kibana/config/certs/generated/ca/ca.crt
+      - /usr/share/kibana/config/certs/swordgroup/geotrust_ca.crt
+    
+#monitoring.ui.container.elasticsearch.enabled: true
+xpack.security.encryptionKey: "8xfcEn59FsWspTTPmPFE795rLT3FPmk3"
+#logging:
+#  dest: "/usr/share/elasticsearch/logs"
+
+# Increase of default values, can be adjusted depending on the performance
+#kibana.autocompleteTimeout: 5000
+#kibana.autocompleteTerminateAfter: 1000000
+
+# Authent methods
+xpack.security.authc.providers:
+  basic.basic1:
+    order: 0

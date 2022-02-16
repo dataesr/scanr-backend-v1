@@ -1,0 +1,16 @@
+Attention ce packaging est incomplet pour vous.
+
+- pythondp permet de construire une image avec python 3.4.0 et les dépendances systèmes
+- pythonplugin permet de construire une image runable
+
+MAIS il manque l'adaptation pour vous permettre d'embarquer les dépendances dans l'environnement. Il faut rajouter à la fin de pythondp de quoi installer les dépendances dans l'environnement défini par /appenv.
+C'est à dire, copiez toutes les dépendances dans le répertoire courant et ajouter ces lignes: 
+RUN . /appenv/bin/activate
+
+ADD {plugin}.tar.gz /tmp
+RUN cd /tmp/{plugin} && ./tools/deps.sh && ./tools/install.sh
+
+et ce pour chaque dépendance. Je n'ai pas testé cette approche mais pas de raison que ça ne marche pas.
+
+
+Pour pythonplugin, il suffit de copier le fichier du plugin à monter et lancer la build avec comme argument ARTIFACT= le nom du plugin

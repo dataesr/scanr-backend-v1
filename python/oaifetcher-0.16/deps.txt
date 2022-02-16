@@ -1,0 +1,4 @@
+pyoai==2.4.5
+Sickle==0.5
+companies_plugin==1.21
+pyquery==1.2.13
