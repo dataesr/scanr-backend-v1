@@ -1,5 +1,6 @@
-<img src="https://scanr.enseignementsup-recherche.gouv.fr/app/assets/img/home/scanR_H.png" width="332" height="93">
 # scanR : Moteur de recherche de la recherche et de l'innovation française
+
+⚠️ This project has been archived. The new project is now here : https://github.com/dataesr/scanr-ui.
 
 https://scanr.enseignementsup-recherche.gouv.fr/  
 
